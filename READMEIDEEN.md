@@ -2,7 +2,25 @@
 
 ## 1. Projektmanagement
 
+## Inhalt
+
+Projektablauf
+Evaluation von Losungen
+Theoretische Losungsansatze mit Begrundung (System-Design)
+Dokumentation der Installation und Inbetriebnahme von Hard- und/oder Software (Beurteilung durch die
+Experten)
+Projektdokumentation
+Projektabnahme/Übergabe/Schulung durch den Experten
+Beziehungen, Einflussgrossen und Schnittstellen
+Risikoanalyse und -management
+Falls erforderlich: Compliance und rechtliche Aspekte
+Performance-Analyse und Optimierungen
+Innovationsmanagement
+Nachhaltigkeitsaspekte
+Messbare Projektevaluation
+
 ## Resourcen
+
 Gitlab: https://gitlab.com/ch-tbz-wb/Stud/prj/-/blob/main/1_Handlungskompetenzen/README.md
 
 Punkte die drinnen sein müssen PRJ2:

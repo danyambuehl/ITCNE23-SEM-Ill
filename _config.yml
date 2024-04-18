@@ -1,5 +1,5 @@
-title: ITCNE23-SEM-ll
-description: Automatisierungslösung 
+title: ITCNE23-SEM-lll
+description: Description of the site 
 remote_theme: just-the-docs/just-the-docs
 #remote_theme: tomjoht/documentation-theme-jekyll
 #remote_theme: dieghernan/chulapa
@@ -9,7 +9,7 @@ remote_theme: just-the-docs/just-the-docs
 
 favicon_ico: "/docs/img/favorite.png"
 
-url: https://danyambuehl.github.io/ITCNE23-SEM-ll
+url: https://danyambuehl.github.io/ITCNE23-SEM-lll
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/docs/img/logo.png"
