@@ -22,7 +22,7 @@ Und wer weiss, mit ein bisschen Glück und viel Code könnte meine Arbeit dazu b
 | Projekt Experte | Rohr Philipp |
 | IaC Experte | Langer Boris |
 | Student | Dany Ambühl  |
-| Problemstellung | Automatisierung meiner monatlich wiederkehrenden Windows-Update-Aufgaben |
+| Problemstellung | Den Zugang zu freien Genossenschaftswohnungen effizienter gestalten. |
 | Ziele  | - Entwicklung eines Tools indem Mitglieder über verfügbaren Genossenschaftswohnungen informiert werden |
 |   | - Implementierung einer REST-API und Microservices-Architektur |
 |   | - Smartphone-Benachrichtigungsfunktion |

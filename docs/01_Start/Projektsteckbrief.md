@@ -2,7 +2,7 @@
 layout: default
 #layout: minimal
 title: Projektsteckbrief
-parent: Projekt
+parent: Start
 nav_order: 1
 ---
 
