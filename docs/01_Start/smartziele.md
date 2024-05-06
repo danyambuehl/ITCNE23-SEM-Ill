@@ -18,7 +18,7 @@ Sie sind ein bewährtes Instrument, um sicherzustellen, dass die Ziele klar defi
 |------------------------------|--------------------------|---------------------|---------------            | --------------        |
 | Klar definierte und präzise  | Quantifizierbare Aspekte | Realistische  Ziele | Bedeutung für das Projekt | klaren Zeitrahmens    |
 
-### Verfügbaren Genossenschaftswohnungen informiert werden
+### Genossenschaftswohnungen informiert werden
 
 Entwicklung eines Tools, mit dessen Hilfe interessierte Personen innerhalb von zwei Monaten nach Projektbeginn effektiv über verfügbaren Genossenschaftswohnungen informiert werden.
 
@@ -29,6 +29,10 @@ Am ende des Projektes werden mindestens bereits vier verschiedene Baugenossensch
 ### Verwendung von REST-API
 
 Implementierung einer REST-API und Microservices-Architektur innerhalb des ersten Monates nach Projektstart, um den Service flexibel und skalierbar zu gestalten.
+
+### Flexibel anwendbar
+
+User können via REST-API verschiedene Genossenschaften abfragen und so die Daten flexibel und individuell an ihre Bedürfnisse anpassen.
 
 ### Smartphone-Benachrichtigungsfunktion
 
