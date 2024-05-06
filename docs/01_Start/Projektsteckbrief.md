@@ -15,4 +15,4 @@ Dies werde ich tun, indem ich das Problem aus der Perspektive eines Informatiker
 
 Durch die Bearbeitung dieses Themas hoffe ich, ein tieferes Verständnis für Microservices mit Python zu erlangen und gleichzeitig praktische Fähigkeiten in der Implementierung einer REST-API zu entwickeln."
 
-![Kanban Board](/docs/img/bdz_Projekt.jpg)
+![Kanban Board](../img/bdz_Projekt.jpg)
