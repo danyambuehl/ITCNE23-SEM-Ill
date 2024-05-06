@@ -82,10 +82,10 @@ Es werden folgende Labels verwendet um die Tasks nach Themen zu gruppieren.
 - Projekt --> Task für Projekt Planung
 - App --> Task für die App Entwicklung
 
-[^1]: Kanban-Board [Retrieved from](/docs/img/tasklist.png)
-[^2]: Task Kategorien [Retrieved from](/docs/img/tasklist.png)
-[^3]: Task Kategorien [Retrieved from](/docs/img/tasklist.png)
-[^4]: Task Kategorien [Retrieved from](/docs/img/tasklist.png)
+[^1]: Kanban-Board [Retrieved from](/docs/img/kanban-board.png)
+[^2]: Roadmap [Retrieved from](/docs/img/kanban-board.png)
+[^3]: Taskleiste [Retrieved from](/docs/img/kanban-board.png)
+[^4]: Priority Board [Retrieved from](/docs/img/kanban-board.png)
 [^5]: Task Kategorien [Retrieved from](/docs/img/tasklist.png)
 [^6]: Task Status [Retrieved from](/docs/img/tasklist.png)
 [^7]: Task Priorität [Retrieved from](/docs/img/tasklist.png)
