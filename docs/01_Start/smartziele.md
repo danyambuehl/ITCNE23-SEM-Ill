@@ -9,6 +9,11 @@ parent: Start
 
 ## SMART-Ziele [^1]
 
+## Was sind SMART-Ziele?
+
+SMART-Ziele sind spezifische, messbare, erreichbare, relevante und zeitgebundene Ziele, die dazu beitragen, den Erfolg eines Projekts zu definieren und zu messen.
+Sie sind ein bewährtes Instrument, um sicherzustellen, dass die Ziele klar definiert sind und die Erwartungen erfüllt werden.
+
 | **Spezifisch**               | **Messbar**              | **Erreichbar**      | **Relevant**              | **Zeitgebunden**      |
 |------------------------------|--------------------------|---------------------|---------------            | --------------        |
 | Klar definierte und präzise  | Quantifizierbare Aspekte | Realistische  Ziele | Bedeutung für das Projekt | klaren Zeitrahmens    |
@@ -29,4 +34,4 @@ Implementierung einer REST-API und Microservices-Architektur innerhalb des erste
 
 Das System muss so konzipiert werden, dass es eine Smartphone-Benachrichtigungsfunktion unterstützt und nahtlos integriert.
 
-[^1]: SMART-Ziele [Retrieved from](/docs/img/tasklist.png)
+[^1]: SMART-Ziele richtig formulieren [Retrieved from](https://asana.com/de/resources/smart-goals)
