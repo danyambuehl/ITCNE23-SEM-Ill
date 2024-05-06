@@ -5,8 +5,8 @@
 ## Inhalt
 
 Projektablauf
-Evaluation von Losungen
-Theoretische Losungsansatze mit Begrundung (System-Design)
+Evaluation von Losungen -> Erhebungstechnik -> Umfrag -> uswerten
+Theoretische Losungsansatze mit Begrundung (System-Design) -> Nutzwertanalyce -> WirschaftslichkeitsAnalyze
 Dokumentation der Installation und Inbetriebnahme von Hard- und/oder Software (Beurteilung durch die
 Experten)
 Projektdokumentation

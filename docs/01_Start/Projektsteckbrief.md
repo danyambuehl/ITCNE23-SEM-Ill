@@ -4,8 +4,11 @@ layout: default
 title: Projektsteckbrief
 parent: Start
 nav_order: 1
+# Vielleicht noch ein Bild oder Symbol hinzufügen?
 ---
 
 ## Projektsteckbrief
 
-"In meiner Semesterarbeit konzentriere ich mich auf das Thema (Ihr spezifisches Thema). Das Hauptziel dieser Arbeit besteht darin, (Ihr spezifisches Ziel) zu erreichen. Dies werde ich tun, indem ich (Ihren spezifischen Ansatz oder Ihre Methodik) anwende. Durch die Bearbeitung dieses Themas hoffe ich, ein tieferes Verständnis für (das Wissensfeld oder den Anwendungsbereich) zu erlangen und gleichzeitig praktische Fähigkeiten in (relevanten Fähigkeiten) zu entwickeln."
+In meiner Semesterarbeit konzentriere ich mich auf das aktuelle Problem, bezahlbaren Wohnraum in Zürich zu finden. Das Hauptziel dieser Arbeit besteht darin, den Zugang zu freien Genossenschaftswohnungen effizienter zu gestalten.
+
+Dies werde ich tun, indem ich das Problem aus der Perspektive eines Informatikers angehe und mit Hilfe moderner Technologien ein Tool Entwickle mit dem interessierte Personen effektiv über verfügbaren Genossenschaftswohnungen informiert werden. Durch die Bearbeitung dieses Themas hoffe ich, ein tieferes Verständnis für Microservices mit Python zu erlangen und gleichzeitig praktische Fähigkeiten in der Implementierung einer REST-API zu entwickeln."
