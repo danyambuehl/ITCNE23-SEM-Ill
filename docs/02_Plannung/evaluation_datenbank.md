@@ -136,6 +136,57 @@ apartmentStatusHistory -- apartments : "many-to-one (FK to apartment_id)"
 @enduml
 ```	
 
+```plantuml
+class Companies {
+    company_id : Int: <<PK>>
+    name : String: unique
+    website : String
+    last_scraped_at : DateTime
+    phone : String
+    email : String
+    contact_address : String
+    status : String
+}
+
+class Apartments {
+    apartment_id : Int: <<PK>>
+    company_id : Int: <<FK>>
+    url : String
+    address : String
+    rooms : Int
+    availableFrom : DateTime
+    price : Decimal
+    size : Decimal
+    floor : Integer
+    otherDetails : String
+    html_hash : String
+    scraped_at : DateTime
+    status : String
+}
+
+class ApartmentStatusHistory {
+    status : String
+    from : DateTime
+    to : DateTime
+    apartment_id : Int: <<FK>>
+}
+
+class Users {
+    user_id : Int: <<PK>>
+    username : String: unique
+    password : String
+    email : String
+    signedUpAt : DateTime
+    priceRange_min : Decimal
+    priceRange_max : Decimal
+    roomRange_min : Int
+    roomRange_max : Int
+}
+
+Apartments "many" -- "one" Companies
+ApartmentStatusHistory "many" -- "one" Apartments
+```
+
 Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
 
 Tipps
