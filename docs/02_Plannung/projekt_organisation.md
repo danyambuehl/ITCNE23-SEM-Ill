@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Organisation
+title: Projektorganisation
 parent: Planung
 nav_order: 1
 ---

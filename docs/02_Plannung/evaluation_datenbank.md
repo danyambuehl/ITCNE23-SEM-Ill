@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Organisation
+title: Evaluation Datenbank
 parent: Planung
 nav_order: 1
 ---
@@ -13,7 +13,8 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
 
 ### Collection Companies
 
-```json
+```plantuml
+@startjson
 {
     "_id": MongoDB ObjectId,
     "name": String, // Name des Unternehmens
@@ -26,6 +27,7 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
     },
     "status": String, // Status der Webseite, z.B. 'aktiv', 'inaktiv' etc.
 }
+@endjson
 ```
 
 ### Collection Apartments
@@ -80,7 +82,6 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
 DB Schema MySQL
 
 ```plantuml
-```
 @startuml
 
 entity "Companies" as companies {
@@ -133,7 +134,7 @@ apartments -- companies : "many-to-one (FK to company_id)"
 apartmentStatusHistory -- apartments : "many-to-one (FK to apartment_id)"
 
 @enduml
-
+```	
 
 Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
 
