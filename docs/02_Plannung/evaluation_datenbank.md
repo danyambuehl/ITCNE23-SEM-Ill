@@ -80,6 +80,7 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
 DB Schema MySQL
 
 ```plantuml
+```
 @startuml
 
 entity "Companies" as companies {
@@ -132,7 +133,8 @@ apartments -- companies : "many-to-one (FK to company_id)"
 apartmentStatusHistory -- apartments : "many-to-one (FK to apartment_id)"
 
 @enduml
-```
+
+
 Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
 
 Tipps

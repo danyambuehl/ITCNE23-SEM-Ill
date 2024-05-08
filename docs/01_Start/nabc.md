@@ -5,3 +5,8 @@ anstelle von Swat analyse
 Need Approach Benefit Competition
 
 ### Need
+
+Gewisse Seiten werden nicht überwacht vom konkurenten
+Keine Kosten für die Wohnungssuche
+Benachrichtigung auf dem Handy
+
