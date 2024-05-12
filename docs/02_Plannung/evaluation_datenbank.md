@@ -10,16 +10,12 @@ nav_order: 1
 # docker image ls
 # docker image prune
 ---
+## Evaluation Datenbank
 
-Das ist eine kluge Entscheidung. Es ist immer vorteilhaft, eine Evaluierung vor der Entscheidungsfindung durchzuführen. Hier ist eine Art und Weise, wie Sie MongoDB und MySQL vergleichen könnten:
+Die Wahl der richtigen Datenbank für Ihr Projekt ist von entscheidender Bedeutung.
+In diesem Abschnitt werde ich die Vor- und Nachteile von MongoDB und MySQL vergleichen, um die beste Wahl für Ihr Projekt zu treffen werde ich am ende eine Entscheidungsmatrix erstellen
 
-Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umgang mit Datenschemas. MongoDB verwendet ein flexibles, JSON-ähnliches Format (BSON), das es erlaubt, strukturierte, halb-strukturierte und unstrukturierte Daten zu speichern. MySQL hingegen verwendet ein starres relationales Schema, das die Datenorganisation vorab definiert und Änderungen an der Struktur schwieriger macht.
-
-## Examples 
-
-![EXAMPLE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/example.iuml)
-
-![MongoDB](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/MongoDB.iuml)
+Damit ich einen Überblick über die Datenbanken habe, erstele ich zuerst ein Datenbankschema für beide Datenbanken.
 
 ## DB Schema MongoDB
 
@@ -88,20 +84,21 @@ erDiagram
         int roomRange_min "min Zimmeranzahl"
         int roomRange_max "max Zimmeranzahl"
     }
-
 ```
 
 ## Vergleich
 
-Skalierbarkeit: MongoDB wurde für horizontale Skalierbarkeit entwickelt und kann leicht auf mehrere Maschinen verteilt werden. MySQL hingegen ist eher für vertikale Skalierbarkeit optimiert und kann daher bei großen Datenmengen oder hoher Zugriffsrate an seine Grenzen stoßen.
+Um die Datenbanken zu vergleichen, werde ich die folgenden Kriterien verwenden:
 
 Performance: Die Performance kann sich je nach Einsatzszenario stark unterscheiden. MongoDB kann bei großen Datenmengen und einfachen Anfragen oft schneller sein. MySQL ist jedoch bei komplexen Anfragen oft performanter, da die relationale Datenstruktur eine effizientere Datenmanipulation ermöglicht.
 
-Transaktionen: Obwohl MongoDB in neueren Versionen Transaktionen unterstützt, ist MySQL in der Regel besser geeignet für Anwendungen, die komplexe Transaktionen mit mehreren Operationen erfordern.
+Skalierbarkeit: MongoDB wurde für horizontale Skalierbarkeit entwickelt und kann leicht auf mehrere Maschinen verteilt werden. MySQL hingegen ist eher für vertikale Skalierbarkeit optimiert und kann daher bei großen Datenmengen oder hoher Zugriffsrate an seine Grenzen stoßen.
+
+Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umgang mit Datenschemas. MongoDB verwendet ein flexibles, JSON-ähnliches Format (BSON), das es erlaubt, strukturierte, halb-strukturierte und unstrukturierte Daten zu speichern. MySQL hingegen verwendet ein starres relationales Schema, das die Datenorganisation vorab definiert und Änderungen an der Struktur schwieriger macht.
+
+ACID-Transaktionen: Obwohl MongoDB in neueren Versionen Transaktionen unterstützt, ist MySQL in der Regel besser geeignet für Anwendungen, die komplexe Transaktionen mit mehreren Operationen erfordern.
 
 Community und Support: MySQL hat eine lange Geschichte und eine große aktive Community, während MongoDB eine jüngere Technologie mit einer wachsenden Community ist. Beide haben professionellen Support von den jeweiligen Unternehmen.
-
-Es ist wichtig zu betonen, dass weder MongoDB noch MySQL in allen Situationen die beste Wahl ist. Es hängt stark von den spezifischen Anforderungen des Projekts ab. Daher wäre es ratsam, für Ihr Projekt konkrete Szenarios zu testen und dabei zu überlegen, welche Aspekte für Ihr Projekt besonders relevant sind.
 
 ## Entscheidungsmatrix
 
