@@ -1,14 +1,15 @@
 @startjson
 {
-    "_id": MongoDB ObjectId,
-    "name": String, // Name des Unternehmens
-    "website": String, // Webseite des Unternehmens 
-    "last_scraped_at": Date, // Datum und Uhrzeit, wann die Webseite zuletzt gescraped wurde
-    "contact": { // Kontaktinformationen
-        "phone": String, // Telefonnummer (falls vorhanden)
-        "email": String, // E-Mail Adresse (falls vorhanden)
-        "address": String, // Büroadresse (falls vorhanden)
+    "_id": "MongoDB ObjectId",
+    "name": "String",
+    "website": "String",
+    "last_scraped_at": "Date",
+    "contact": { 
+        "phone": "String",
+        "email": "String",
+        "address": "String",
     },
-    "status": String, // Status der Webseite, z.B. 'aktiv', 'inaktiv' etc.
+    "status": "String",
 }
 @endjson
+
