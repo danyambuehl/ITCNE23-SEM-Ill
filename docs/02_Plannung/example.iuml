@@ -1,11 +1,52 @@
 @startuml
-!theme toy
-actor client
-node app
-node car
-node tshirt
 
-car -> app
-app -> client
-client -> tshirt
+entity "Companies" as companies {
+  company_id: int(11) <<PK>>
+  name: varchar(255)
+  website: varchar(255)
+  last_scraped_at: datetime
+  phone: varchar(255)
+  email: varchar(255)
+  contact_address: varchar(255)
+  status: varchar(50)
+}
+
+entity "Apartments" as apartments {
+  apartment_id: int(11) <<PK>>
+  company_id: int(11) <<FK>>
+  url: varchar(255)
+  address: varchar(255)
+  rooms: int(11)
+  availableFrom: datetime
+  price: decimal(8,2)
+  size: decimal(8,2)
+  floor: integer
+  otherDetails: text
+  html_hash: varchar(255)
+  scraped_at: datetime
+  status: varchar(50)
+}
+
+entity "ApartmentStatusHistory" as apartmentStatusHistory {
+  status: varchar(50)
+  from: datetime
+  to: datetime
+  apartment_id: int(11) <<FK>>
+}
+
+entity "Users" as users {
+  user_id: int(11) <<PK>>
+  username: varchar(255)
+  password: varchar(255)
+  email: varchar(255)
+  signedUpAt: datetime
+  priceRange_min: decimal(8,2)
+  priceRange_max: decimal(8,2)
+  roomRange_min: int(11)
+  roomRange_max: int(11)
+}
+
+apartments -- companies : "many-to-one (FK to company_id)"
+apartmentStatusHistory -- apartments : "many-to-one (FK to apartment_id)"
+
 @enduml
