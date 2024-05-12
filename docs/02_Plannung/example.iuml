@@ -1,4 +1,5 @@
 @startuml
+!theme toy
 actor client
 node app
 node car

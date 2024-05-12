@@ -13,8 +13,6 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
 
 ### Collection Companies
 
-https://github.com/danyambuehl/ITCNE23-SEM-Ill/blob/main/docs/02_Plannung/example.iuml
-
 ![EXAMPLE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/example.iuml)
 
 ```plantuml
