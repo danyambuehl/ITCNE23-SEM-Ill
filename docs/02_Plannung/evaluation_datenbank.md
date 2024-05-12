@@ -13,6 +13,19 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
 
 ### Collection Companies
 
+<details>
+
+```
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+		
+@enduml
+```
+
+</details>
+
 ```plantuml
 @startjson
 {
