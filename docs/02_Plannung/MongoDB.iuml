@@ -7,9 +7,9 @@
     "contact": { 
         "phone": "String",
         "email": "String",
-        "address": "String",
+        "address": "String"
     },
-    "status": "String",
+    "status": "String"
 }
 @endjson
 
