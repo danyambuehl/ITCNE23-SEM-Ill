@@ -84,7 +84,7 @@ erDiagram
 
 ## DB Schema MySQL
 
-![Schema MySQL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/sql_schmea.iuml)
+![Schema MySQL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/sql_schema.iuml)
 
 ## Vergleich
 
@@ -114,13 +114,11 @@ MySQL hat eine lange Geschichte und eine große aktive Community, während Mongo
 
 | **Datenbank**  (1-5)  | **Performance**    | **Skalierbarkeit**  | **Flexibilität des Datenschemas** | **ACID-Transaktionen**  | **Community und Support**      | **Gesamtpunktzahl**  |
 |---------------------  |------------------  |---------------------|---------------                    | --------------          | -----------------------------  | -------------------- |
-| Gewichtung            | 0.3                | 0.1                 | 0.15                              | 0.2                     |   0.2                          | 
-| MongoDB               | 4                  | 4                   | 4                                 | 3                       |   3                            | 3.4             |
-| MySQL                 | 3                  | 2                   | 2                                 | 5                       |   4                            | 
+| Gewichtung            | 0.3                | 0.1                 | 0.1                               | 0.3                     |   0.3                          |                      |
+| MongoDB               | 3                  | 4                   | 4                                 | 3                       |   3                            | 3.5                  |
+| MySQL                 | 4                  | 2                   | 2                                 | 5                       |   4                            | 4.3                  |
 
+## Fazit
 
-Berechnen der Gesamtpunktzahl (Summe aus gewichteten Punkten für jedes Kriterium):
-
-MongoDB: 0.3 * 4 (Performance) + 0.25 * 4 (Skalierbarkeit) + 0.15 * 5 (Datenschema) + 0.2 * 3 (ACID) + 0.1 * 4 (Support) = 4.05
-
-In diesem szenario wäre MongoDB die geeignete Wahl basierend auf der höheren Gesamtpunktzahl
+Beide Datenbanken haben ihre Vor- und Nachteile und eignen sich für unterschiedliche Anwendungsfälle.
+Anhand der Entscheidungsmatrix lässt sich jedoch feststellen, dass MySQL insgesamt besser abschneidet und daher die bessere Wahl für dieses Projekt ist.
