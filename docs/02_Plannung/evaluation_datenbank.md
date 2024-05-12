@@ -3,6 +3,12 @@ layout: default
 title: Evaluation Datenbank
 parent: Planung
 nav_order: 1
+# Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
+#```python
+#uuid.uuid1()    # Unique ID
+#```
+# docker image ls
+# docker image prune
 ---
 
 Das ist eine kluge Entscheidung. Es ist immer vorteilhaft, eine Evaluierung vor der Entscheidungsfindung durchzuführen. Hier ist eine Art und Weise, wie Sie MongoDB und MySQL vergleichen könnten:
@@ -19,195 +25,73 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
 
 [![](https://mermaid.ink/img/pako:eNqlVktu2zAQvQqhTVrAzgG8i-O0MRq3aRK3QGHAGIsjiY1ICiRlN3Jylt6iq-x8sQ4ly3Zs-QNEC4mi3pvhzLyhOA9CzTHoBGh6AmIDcqQYXZdaZqAEWvb83G7rObvIwDiJylnWYaPAYIQGVYh2FOxhXGrlIHQlPPRjoVbgDWtLdA8JkNoT0dfCOm1EeO_A5RUpAcskqKeaNLRoVvjb9XprsMdtr3xeTfjLOiNUzMaCs9svxBhoFetel32b_MbQ9XntZgOrQCIhv_oHJ2tD5dAoTGjltgE-w4kVzjN-0gj98BCLAwFSsG5sQwMZ8jE44vYoAZLlirNhYgqy0mIzUIpxgWxlt8hTdIVjMS65bJYbjg2LslVCR8EysxzNykyLFefdc3YGj05Mz1rsTKhqyNCF57Wxl3Vaq_rvJjVLtPJxP2CKkVYql5LcfIggJQFMtUlAcVQfG5aHkkRCzKv2wA8uuEFr8SQq8BJM5O7i1Wg4Rl3FsaG-9-kjLHX2xD55_F0lyIJBHlFtLetLqSciFajytQIarOTGJ2B4d7NVm6lW5UxZeJ2QlfiEelMjJGTu2j-8-q4fBjftvkogdbvqO114J_tv1FvFruUWGRRebVM0UqBDt0dv9Q4yP1D6WjAbbjYXJZRjRmtZQlUBSVoifwkv0J10wJT8wSTFT0ZLYvxAEy1e4wkYBpPDmoxSTUnMaAfzfUC7k3gT-ilkKwrP_WwW_xZ_30REYbDvOQkcSLZeSofN-aDJpDZlFXT4OEPzeFJLaZfQb2OZdp8xWgSyvoq0keAECXLxOtmS5PF-29rb58c0s1OXqCpH-SCV4g7AafpMt82PK_fVf-N9nZ6TjeXfoEv97IrqtQGZgbUzbbhXQTV0viWPbn3ttZItq300dKyIFfJhdnGwY6lEtQlihAkDFaPElKOjDcLtpGjzbzpvFPWdtzCWJMRR4O-lwkkKSNb39MGSAn88he77KHWPbruomhTKrj2AX9lvwlOEQSugaco1p0NRGRxJJUFfPH9w4BhBnpYpeSEo5E7fP6kw6DiTYyvIM5_25Unq7eQVFyTroEP6tzSJ5eugOnyVZ7CX_3cPJos?type=png)](https://mermaid-live-editor.fly.dev/edit#pako:eNqlVktu2zAQvQqhTVrAzgG8i-O0MRq3aRK3QGHAGIsjiY1ICiRlN3Jylt6iq-x8sQ4ly3Zs-QNEC4mi3pvhzLyhOA9CzTHoBGh6AmIDcqQYXZdaZqAEWvb83G7rObvIwDiJylnWYaPAYIQGVYh2FOxhXGrlIHQlPPRjoVbgDWtLdA8JkNoT0dfCOm1EeO_A5RUpAcskqKeaNLRoVvjb9XprsMdtr3xeTfjLOiNUzMaCs9svxBhoFetel32b_MbQ9XntZgOrQCIhv_oHJ2tD5dAoTGjltgE-w4kVzjN-0gj98BCLAwFSsG5sQwMZ8jE44vYoAZLlirNhYgqy0mIzUIpxgWxlt8hTdIVjMS65bJYbjg2LslVCR8EysxzNykyLFefdc3YGj05Mz1rsTKhqyNCF57Wxl3Vaq_rvJjVLtPJxP2CKkVYql5LcfIggJQFMtUlAcVQfG5aHkkRCzKv2wA8uuEFr8SQq8BJM5O7i1Wg4Rl3FsaG-9-kjLHX2xD55_F0lyIJBHlFtLetLqSciFajytQIarOTGJ2B4d7NVm6lW5UxZeJ2QlfiEelMjJGTu2j-8-q4fBjftvkogdbvqO114J_tv1FvFruUWGRRebVM0UqBDt0dv9Q4yP1D6WjAbbjYXJZRjRmtZQlUBSVoifwkv0J10wJT8wSTFT0ZLYvxAEy1e4wkYBpPDmoxSTUnMaAfzfUC7k3gT-ilkKwrP_WwW_xZ_30REYbDvOQkcSLZeSofN-aDJpDZlFXT4OEPzeFJLaZfQb2OZdp8xWgSyvoq0keAECXLxOtmS5PF-29rb58c0s1OXqCpH-SCV4g7AafpMt82PK_fVf-N9nZ6TjeXfoEv97IrqtQGZgbUzbbhXQTV0viWPbn3ttZItq300dKyIFfJhdnGwY6lEtQlihAkDFaPElKOjDcLtpGjzbzpvFPWdtzCWJMRR4O-lwkkKSNb39MGSAn88he77KHWPbruomhTKrj2AX9lvwlOEQSugaco1p0NRGRxJJUFfPH9w4BhBnpYpeSEo5E7fP6kw6DiTYyvIM5_25Unq7eQVFyTroEP6tzSJ5eugOnyVZ7CX_3cPJos)
 
-### Collection Companies
+## DB Schema MySQL
 
+```mermaid
+erDiagram
+    Companies ||--o{ Apartments : "references"
+    Companies ||--o{ Contact : "contains"
+    Apartments ||--o{ Details : "contains"
+    Apartments ||--o{ HistoricStatus : "has many"
+    Users ||--o{ Preferences : "has"
 
-{
-    "_id": MongoDB ObjectId,
-    "name": String, // Name des Unternehmens
-    "website": String, // Webseite des Unternehmens 
-    "last_scraped_at": Date, // Datum und Uhrzeit, wann die Webseite zuletzt gescraped wurde
-    "contact": { // Kontaktinformationen
-        "phone": String, // Telefonnummer (falls vorhanden)
-        "email": String, // E-Mail Adresse (falls vorhanden)
-        "address": String, // Büroadresse (falls vorhanden)
-    },
-    "status": String, // Status der Webseite, z.B. 'aktiv', 'inaktiv' etc.
-}
-
-
-### Collection Apartments
-
-```json
-{
-    "_id": MongoDB ObjectId,
-    "company": MongoDB ObjectId, // Referenz auf das Immobilienunternehmen
-    "url": String,  // URL der Webseite, von der die Wohnung gescraped wurde
-    "details": { // Details der Wohnung
-        "address": String, // Adresse der Wohnung
-        "rooms": Number, // Anzahl der Zimmer
-        "availableFrom": Date, // Verfügbar ab (falls vorhanden)
-        "price": Number, // Preis der Wohnung (falls vorhanden)
-        "size": Number, // Größe der Wohnung in Quadratmetern (falls vorhanden)
-        "floor": Number, // Stockwerk (falls vorhanden)
-        "otherDetails": String, // Andere Information über die Wohnung (falls vorhanden)
-    },
-    "hash": String, // Hash des HTML-Inhalts
-    "scraped_at": Date, // Datum und Uhrzeit, wann die Wohnung gescraped wurde
-    "status": String, // Status der Wohnung, z.B. 'frei', 'vermietet' etc.
-    "historicStatus": [  // Speichert die Historie des Status der Wohnung
-        { 
-            "status": String, 
-            "from": Date, 
-            "to": Date 
-        },
-        //...
-    ]
-}
-
-```
-
-### Collection Users
-
-```json
-{
-    "_id": MongoDB ObjectId,
-    "username": String, // Benutzername
-    "password": String, // Passworthash
-    "email": String, // E-Mail-Adresse des Benutzers
-    "signedUpAt": Date, // Datum und Uhrzeit, wann der Benutzer sich angemeldet hat
-    "preferences": { // Speichert die Benutzereinstellungen und Präferenzen
-        "priceRange": { "min": Number, "max": Number }, // Preisbereich
-        "roomRange": { "min": Number, "max": Number }, // Zimmeranzahl
-        // Weitere Präferenzen...
+    Companies {
+        string _id PK "MongoDB ObjectId"
+        string name "Name des Unternehmens"
+        string website "Webseite des Unternehmens"
+        date last_scraped_at "Datum und Uhrzeit, wann die Webseite zuletzt gescraped wurde"
+        string status "Status der Webseite, z.B. 'aktiv', 'inaktiv' etc."
     }
-}
+
+    Contact {
+        string phone "Telefonnummer (falls vorhanden)"
+        string email "E-Mail Adresse (falls vorhanden)"
+        string address "Büroadresse (falls vorhanden)"
+    }
+
+    Apartments {
+        string _id PK "MongoDB ObjectId"
+        string company FK "Referenz auf das Immobilienunternehmen"
+        string url "URL der Webseite, von der die Wohnung gescraped wurde"
+        string hash "Hash des HTML-Inhalts"
+        date scraped_at "Datum und Uhrzeit, wann die Wohnung gescraped wurde"
+        string status "Status der Wohnung, z.B. 'frei', 'vermietet' etc."
+    }
+
+    Details {
+        string address "Adresse der Wohnung"
+        int rooms "Anzahl der Zimmer"
+        date availableFrom "Verfügbar ab (falls vorhanden)"
+        float price "Preis der Wohnung (falls vorhanden)"
+        float size "Größe der Wohnung in Quadratmetern (falls vorhanden)"
+        int floor "Stockwerk (falls vorhanden)"
+        string otherDetails "Andere Information über die Wohnung (falls vorhanden)"
+    }
+
+    HistoricStatus {
+        string status "Status"
+        date from "from Date"
+        date to "to Date"
+    }
+
+    Users {
+        string _id PK "MongoDB ObjectId"
+        string username "Benutzername"
+        string password "Passworthash"
+        string email "E-Mail-Adresse des Benutzers"
+        date signedUpAt "Datum und Uhrzeit, wann der Benutzer sich angemeldet hat"
+    }
+
+    Preferences {
+        float priceRange_min "min Preisbereich"
+        float priceRange_max "max Preisbereich"
+        int roomRange_min "min Zimmeranzahl"
+        int roomRange_max "max Zimmeranzahl"
+    }
 
 ```
 
-DB Schema MySQL
-
-```plantuml
-@startuml
-
-entity "Companies" as companies {
-  company_id: int(11) <<PK>>
-  name: varchar(255)
-  website: varchar(255)
-  last_scraped_at: datetime
-  phone: varchar(255)
-  email: varchar(255)
-  contact_address: varchar(255)
-  status: varchar(50)
-}
-
-entity "Apartments" as apartments {
-  apartment_id: int(11) <<PK>>
-  company_id: int(11) <<FK>>
-  url: varchar(255)
-  address: varchar(255)
-  rooms: int(11)
-  availableFrom: datetime
-  price: decimal(8,2)
-  size: decimal(8,2)
-  floor: integer
-  otherDetails: text
-  html_hash: varchar(255)
-  scraped_at: datetime
-  status: varchar(50)
-}
-
-entity "ApartmentStatusHistory" as apartmentStatusHistory {
-  status: varchar(50)
-  from: datetime
-  to: datetime
-  apartment_id: int(11) <<FK>>
-}
-
-entity "Users" as users {
-  user_id: int(11) <<PK>>
-  username: varchar(255)
-  password: varchar(255)
-  email: varchar(255)
-  signedUpAt: datetime
-  priceRange_min: decimal(8,2)
-  priceRange_max: decimal(8,2)
-  roomRange_min: int(11)
-  roomRange_max: int(11)
-}
-
-apartments -- companies : "many-to-one (FK to company_id)"
-apartmentStatusHistory -- apartments : "many-to-one (FK to apartment_id)"
-
-@enduml
-```	
-
-```plantuml
-class Companies {
-    company_id : Int: <<PK>>
-    name : String: unique
-    website : String
-    last_scraped_at : DateTime
-    phone : String
-    email : String
-    contact_address : String
-    status : String
-}
-
-class Apartments {
-    apartment_id : Int: <<PK>>
-    company_id : Int: <<FK>>
-    url : String
-    address : String
-    rooms : Int
-    availableFrom : DateTime
-    price : Decimal
-    size : Decimal
-    floor : Integer
-    otherDetails : String
-    html_hash : String
-    scraped_at : DateTime
-    status : String
-}
-
-class ApartmentStatusHistory {
-    status : String
-    from : DateTime
-    to : DateTime
-    apartment_id : Int: <<FK>>
-}
-
-class Users {
-    user_id : Int: <<PK>>
-    username : String: unique
-    password : String
-    email : String
-    signedUpAt : DateTime
-    priceRange_min : Decimal
-    priceRange_max : Decimal
-    roomRange_min : Int
-    roomRange_max : Int
-}
-
-Apartments "many" -- "one" Companies
-ApartmentStatusHistory "many" -- "one" Apartments
-```
-
-Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
-
-Tipps
-
-```python
-uuid.uuid1()    # Unique ID
-```
-
-Unbenützte docker image löschen
-
-```bash
-docker image ls
-docker image prune
-```
-
+## Vergleich
 
 Skalierbarkeit: MongoDB wurde für horizontale Skalierbarkeit entwickelt und kann leicht auf mehrere Maschinen verteilt werden. MySQL hingegen ist eher für vertikale Skalierbarkeit optimiert und kann daher bei großen Datenmengen oder hoher Zugriffsrate an seine Grenzen stoßen.
 
