@@ -1,0 +1,26 @@
+```
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+		
+@enduml
+```
+
+</details>
+
+
+@startjson
+{
+    "_id": MongoDB ObjectId,
+    "name": String, // Name des Unternehmens
+    "website": String, // Webseite des Unternehmens 
+    "last_scraped_at": Date, // Datum und Uhrzeit, wann die Webseite zuletzt gescraped wurde
+    "contact": { // Kontaktinformationen
+        "phone": String, // Telefonnummer (falls vorhanden)
+        "email": String, // E-Mail Adresse (falls vorhanden)
+        "address": String, // Büroadresse (falls vorhanden)
+    },
+    "status": String, // Status der Webseite, z.B. 'aktiv', 'inaktiv' etc.
+}
+@endjson
