@@ -9,18 +9,17 @@ Das ist eine kluge Entscheidung. Es ist immer vorteilhaft, eine Evaluierung vor 
 
 Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umgang mit Datenschemas. MongoDB verwendet ein flexibles, JSON-ähnliches Format (BSON), das es erlaubt, strukturierte, halb-strukturierte und unstrukturierte Daten zu speichern. MySQL hingegen verwendet ein starres relationales Schema, das die Datenorganisation vorab definiert und Änderungen an der Struktur schwieriger macht.
 
+## Examples 
+
+![EXAMPLE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/example.iuml)
+
+![MongoDB](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/MongoDB.iuml)
+
 ## DB Schema MongoDB
 
 ### Collection Companies
 
-![EXAMPLE](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/example.iuml)
 
-
-
-![MongoDB](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/MongoDB.iuml)
-
-```plantuml
-@startjson
 {
     "_id": MongoDB ObjectId,
     "name": String, // Name des Unternehmens
@@ -33,8 +32,7 @@ Datenschema: Ein wesentlicher Unterschied zwischen MongoDB und MySQL ist der Umg
     },
     "status": String, // Status der Webseite, z.B. 'aktiv', 'inaktiv' etc.
 }
-@endjson
-```
+
 
 ### Collection Apartments
 

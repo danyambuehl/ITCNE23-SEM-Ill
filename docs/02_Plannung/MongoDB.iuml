@@ -1,5 +1,17 @@
 @startjson
+<style>
+  .h1 {
+    BackGroundColor red
+    FontColor white
+    FontStyle bold
+  }
+</style>
+#highlight "contact" 
+#highlight "details" 
+#highlight "historicStatus"
+#highlight "Collection" <<h1>>
 {
+    "Collection": "Companies",
     "_id": "MongoDB ObjectId",
     "name": "String",
     "website": "String",
@@ -11,5 +23,31 @@
     },
     "status": "String"
 }
+
+{
+    "_id": "MongoDB ObjectId placeholder",
+    "company": "MongoDB ObjectId placeholder",
+    "url": "String placeholder",
+    "details": {
+        "address": "String placeholder",
+        "rooms": "Number placeholder",
+        "availableFrom": "Date placeholder",
+        "price": "Number placeholder",
+        "size": "Number placeholder",
+        "floor": "Number placeholder",
+        "otherDetails": "String placeholder"
+    },
+    "hash": "String placeholder",
+    "scraped_at": "Date placeholder",
+    "status": "String placeholder",
+    "historicStatus": [
+        {
+            "status": "String placeholder",
+            "from": "Date placeholder",
+            "to": "Date placeholder"
+        }
+    ]
+}
+
 @endjson
 
