@@ -1,4 +1,5 @@
 @startuml
+top to bottom direction
 
 entity "Companies" as companies {
   company_id: int(11) <<PK>>
@@ -51,6 +52,7 @@ entity "Users" as users {
   roomRange_max: int(11)
 }
 
+' Define relationships
 apartments -- companies : "many-to-one (FK to company_id)"
 apartmentStatusHistory -- apartments : "many-to-one (FK to apartment_id)"
 
