@@ -9,6 +9,8 @@ entity "Companies" as companies {
   email: varchar(255)
   contact_address: varchar(255)
   status: varchar(50)
+  created_at: datetime
+  updated_at: datetime
 }
 
 entity "Apartments" as apartments {
@@ -25,9 +27,12 @@ entity "Apartments" as apartments {
   html_hash: varchar(255)
   scraped_at: datetime
   status: varchar(50)
+  created_at: datetime
+  updated_at: datetime
 }
 
 entity "ApartmentStatusHistory" as apartmentStatusHistory {
+  id: int(11) <<PK>>
   status: varchar(50)
   from: datetime
   to: datetime
@@ -37,7 +42,7 @@ entity "ApartmentStatusHistory" as apartmentStatusHistory {
 entity "Users" as users {
   user_id: int(11) <<PK>>
   username: varchar(255)
-  password: varchar(255)
+  password_hash: varchar(512)
   email: varchar(255)
   signedUpAt: datetime
   priceRange_min: decimal(8,2)
