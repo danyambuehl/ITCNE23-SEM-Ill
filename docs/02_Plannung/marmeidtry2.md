@@ -1,3 +1,16 @@
+---
+layout: default
+title: MERMEID TRY 2
+parent: Planung
+nav_order: 1
+# Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
+#```python
+#uuid.uuid1()    # Unique ID
+#```
+# docker image ls
+# docker image prune
+---
+
 Here is a simple flow chart:
 
 ```mermaid
