@@ -28,7 +28,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 [Link button](https://just-the-docs.com){: .btn }
 
 
-<details>
+<details markdown="block">
 <summary>JSON Mongo DB Schema</summary>
 
 ### Collection Companies
