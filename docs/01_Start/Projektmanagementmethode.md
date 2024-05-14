@@ -25,21 +25,21 @@ Die einzelnen Issues werden in der Taskleiste erfasst und nach verschiedenen Kat
 
 ![Kanban Board](../img/kanban-board.png)
 
-## Kanban-Board [^1]
+### Kanban-Board [^1]
 
 Das Kanban-Board bildet das Herzstück des Projektmanagements und bietet eine visuelle Übersicht aller Arbeitsprozesse, hilft Arbeitseffizienz zu erhöhen und Engpässe frühzeitig zu identifizieren. Dadurch ermöglicht es eine Anpassung an sich verändernde Anforderungen während des gesamten Projektablaufs.
 
-## Roadmap [^2]
+### Roadmap [^2]
 
 Eine ausgearbeitete Roadmap dient als Leitfaden für die strategische Planung und Kontrolle der Arbeit. Sie enthält wichtige Meilensteine, die auf die einzelnen Sprints ausgerichtet sind, und dient als Orientierungshilfe für die Fortschrittsverfolgung und den erfolgreichen Abschluss der einzelnen Projektphasen.
 
-## Taskleiste [^3]
+### Taskleiste [^3]
 
 Zur Verbesserung der Verwaltung und Organisation von Aufgaben wird eine neue Taskleiste eingeführt. Diese Taskleiste soll dazu dienen, Aufgaben zu erfassen, sie nach verschiedenen Kategorien zu filtern und zu gruppieren. Das Ziel besteht darin, eine bessere Übersicht und Strukturierung im Projektmanagement zu erreichen.
 
 Die neue Aufgabenliste wird so konzipiert, dass jeder einzelne Task mit spezifischen Metadaten versehen werden kann. Dadurch wird eine einfache Zuordnung zu bestimmten Kategorien ermöglicht.
 
-## Priority Board [^4]
+### Priority Board [^4]
 
 Das Priority Board dient zur Priorisierung der Aufgaben und hilft, die wichtigsten und dringendsten Aufgaben zu identifizieren. Es ermöglicht eine klare Zuordnung von Aufgaben nach ihrer Wichtigkeit und Dringlichkeit und erleichtert die Planung und Umsetzung der Arbeitsprozesse.
 
