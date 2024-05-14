@@ -78,3 +78,11 @@ Still --> Moving
 Moving --> Still
 Moving --> Crash
 Crash --> [*]
+
+<div class="mermaid">
+    graph TD
+      B[peace]
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+      B-->E(fa:fa-camera-retro perhaps?);
+</div>
