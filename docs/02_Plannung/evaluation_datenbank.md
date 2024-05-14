@@ -25,9 +25,6 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ![Schema MongoDB](../img/mongo_db-diagram.svg)
 
-[Link button](https://just-the-docs.com){: .btn }
-
-
 <details markdown="block">
 <summary>JSON Mongo DB Schema</summary>
 
@@ -104,6 +101,8 @@ So habe ich die Tabellen 'apartment' und 'apartment_status_history' getrennt, um
 Das Diagramm wurde mit PlantUML erstellt, leider kann Github PlantUML nicht direkt darstellen daher habe ich den umweg über die PlantUML Proxy Server gemacht.
 
 ![Schema MySQL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/sql_schema.iuml)
+
+[Link button](../02_Plannung/sql_schema.iuml){: .btn }
 
 ## Vergleich
 
