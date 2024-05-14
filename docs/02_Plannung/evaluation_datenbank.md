@@ -25,6 +25,9 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ![Schema MongoDB](../img/mongo_db-diagram.svg)
 
+[Link button](https://just-the-docs.com){: .btn }
+
+
 <details>
 <summary>JSON Mongo DB Schema</summary>
 
