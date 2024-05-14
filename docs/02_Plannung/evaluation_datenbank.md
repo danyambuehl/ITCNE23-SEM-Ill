@@ -12,16 +12,93 @@ nav_order: 1
 ---
 ## Evaluation Datenbank
 
-Die Wahl der richtigen Datenbank für Ihr Projekt ist von entscheidender Bedeutung.
-In diesem Abschnitt werde ich die Vor- und Nachteile von MongoDB und MySQL vergleichen, um die beste Wahl für Ihr Projekt zu treffen werde ich am ende eine Entscheidungsmatrix erstellen
+Die Wahl der richtigen Datenbank für mein Projekt ist von grosser Bedeutung.
+In diesem Abschnitt werde ich die Vor- und Nachteile von MongoDB und MySQL vergleichen, um eine nachvollziebare Entscheidung für die beste Datenbankwahl für mein Projekt zu treffen.
+Am Ende werde ich eine Entscheidungsmatrix erstellen, um die verschiedenen Kriterien zu bewerten und eine endgültige Entscheidung zu treffen.
 
-Damit ich einen Überblick über die Datenbanken habe, erstele ich zuerst ein Datenbankschema für beide Datenbanken.
+Damit ich einen Überblick über die Datenbanken habe, erstelle ich zuerst ein Datenbankschema für beide Datenbanken.
 
 ## DB Schema MongoDB
 
+Im MongoDB Schema habe ich die Möglichkeit genutzt, die Datenbankstruktur flexibel zu gestalten. 
+So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartment' einbetten, um die Historie der Statusänderungen eines Apartments zu speichern.
+
 ![Schema MongoDB](../img/mongo_db-diagram.svg)
 
+<details>
+<summary>JSON Mongo DB Schema</summery>
+
+### Collection Companies
+
+```json
+{
+    "_id": MongoDB ObjectId,
+    "name": String, // Name des Unternehmens
+    "website": String, // Webseite des Unternehmens 
+    "last_scraped_at": Date, // Datum und Uhrzeit, wann die Webseite zuletzt gescraped wurde
+    "contact": { // Kontaktinformationen
+        "phone": String, // Telefonnummer (falls vorhanden)
+        "email": String, // E-Mail Adresse (falls vorhanden)
+        "address": String, // Büroadresse (falls vorhanden)
+    },
+    "status": String, // Status der Webseite, z.B. 'aktiv', 'inaktiv' etc.
+}
+```
+
+### Collection Apartments & ApartmentStatusHistory
+
+```json
+{
+    "_id": MongoDB ObjectId,
+    "company": MongoDB ObjectId, // Referenz auf das Immobilienunternehmen
+    "url": String,  // URL der Webseite, von der die Wohnung gescraped wurde
+    "details": { // Details der Wohnung
+        "address": String, // Adresse der Wohnung
+        "rooms": Number, // Anzahl der Zimmer
+        "availableFrom": Date, // Verfügbar ab (falls vorhanden)
+        "price": Number, // Preis der Wohnung (falls vorhanden)
+        "size": Number, // Größe der Wohnung in Quadratmetern (falls vorhanden)
+        "floor": Number, // Stockwerk (falls vorhanden)
+        "otherDetails": String, // Andere Information über die Wohnung (falls vorhanden)
+    },
+    "hash": String, // Hash des HTML-Inhalts
+    "scraped_at": Date, // Datum und Uhrzeit, wann die Wohnung gescraped wurde
+    "status": String, // Status der Wohnung, z.B. 'frei', 'vermietet' etc.
+    "historicStatus": [  // Speichert die Historie des Status der Wohnung
+        { 
+            "status": String, 
+            "from": Date, 
+            "to": Date 
+        }
+    ]
+}
+
+```
+
+### Collection Users
+
+```json
+{
+    "_id": MongoDB ObjectId,
+    "username": String, // Benutzername
+    "password_hash": String, // Passworthash
+    "email": String, // E-Mail-Adresse des Benutzers
+    "signedUpAt": Date, // Datum und Uhrzeit, wann der Benutzer sich angemeldet hat
+    "preferences": { // Speichert die Benutzereinstellungen und Präferenzen
+        "priceRange": { "min": Number, "max": Number }, // Preisbereich
+        "roomRange": { "min": Number, "max": Number }, // Zimmeranzahl
+    }
+}
+
+```
+
+</details>
+
 ## DB Schema MySQL
+
+Im MySQL Schema habe ich die Datenbankstruktur starrer gestaltet, um die Beziehungen zwischen den Tabellen zu definieren.
+So habe ich die Tabellen 'apartment' und 'apartment_status_history' getrennt, um die Historie der Statusänderungen eines Apartments zu speichern.
+Das Diagramm wurde mit PlantUML erstellt, leider kann Github PlantUML nicht direkt darstellen daher habe ich den umweg über die PlantUML Proxy Server gemacht.
 
 ![Schema MySQL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/sql_schema.iuml)
 
@@ -54,8 +131,8 @@ MySQL hat eine lange Geschichte und eine große aktive Community, während Mongo
 | **Datenbank**  (1-5)  | **Performance**    | **Skalierbarkeit**  | **Flexibilität des Datenschemas** | **ACID-Transaktionen**  | **Community und Support**      | **Gesamtpunktzahl**  |
 |---------------------  |------------------  |---------------------|---------------                    | --------------          | -----------------------------  | -------------------- |
 | Gewichtung            | 0.3                | 0.1                 | 0.1                               | 0.3                     |   0.3                          |                      |
-| MongoDB               | 3                  | 4                   | 4                                 | 3                       |   3                            | 3.5                  |
-| MySQL                 | 4                  | 2                   | 2                                 | 5                       |   4                            | 4.3                  |
+| MongoDB               | 3                  | 4                   | 4                                 | 3                       |   3                            | **3.5**              |
+| MySQL                 | 4                  | 2                   | 2                                 | 5                       |   4                            | **4.3**              |
 
 ## Fazit
 
