@@ -26,16 +26,22 @@ Um den detaillierten Zeitplan einzusehen, öffnen Sie bitte das Projektmanagemen
 gantt
     title Projektplan ITCNE23-SEM-lll
     dateFormat  DD.MM.YY
+    axisFormat  %d.%m.%Y
+
     section Produktionsphase
-    Produktions            :done, prod, 03.05.24, 1d
+    Produktions                  :done,        prod,         03.05.24, 1d
+
     section Einreichung
-    Abgabe Einreichungsformular Semesterarbeit: active, submit, 06.05.24, 5d
+    Abgabe Einreichungsformular Semesterarbeit: active,      submit,       06.05.24, 5d
+
     section Zwischenbesprechung
-    Einzelbesprechung Zwischenstand: milestone, meet, 27.05.24, 1d
+    Einzelbesprechung Zwischenstand           : milestone,   meet,         27.05.24, 1d
+
     section Abschlussphase
-    Abgabe der Arbeit / Schlusspräsentationen (online) : active, present, 05.07.24, 4d
-    Notenvorschlag                                      : note, grade_suggestion, 14.07.24, 1d
-    Mitteilung der Noten                                : milestone, grades_announcement, 21.07.24, 1d
+    Abgabe der Arbeit / Schlusspräsentationen (online) : active, present,  05.07.24, 4d
+    Notenvorschlag                              : milestone, grade_suggestion, 14.07.24, 1d
+    Mitteilung der Noten                        : milestone, grades_announcement, 21.07.24, 1d
+
 ```
 
 ```mermaid
