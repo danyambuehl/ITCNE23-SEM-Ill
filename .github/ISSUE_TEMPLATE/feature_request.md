@@ -3,8 +3,8 @@ name: Feature request
 about: Suggest an idea for this project
 title: "[FEATURE] "
 labels: enhancement
-assignees: 'danyambuehl'
-projects: ITCNE23-SEM-Ill
+assignees: danyambuehl
+
 ---
 
 __Story__
