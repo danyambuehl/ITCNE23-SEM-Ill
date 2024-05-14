@@ -20,13 +20,13 @@ Damit ich einen Überblick über die Datenbanken habe, erstelle ich zuerst ein D
 
 ## DB Schema MongoDB
 
-Im MongoDB Schema habe ich die Möglichkeit genutzt, die Datenbankstruktur flexibel zu gestalten. 
+Im MongoDB Schema habe ich die Möglichkeit genutzt, die Datenbankstruktur flexibel zu gestalten.
 So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartment' einbetten, um die Historie der Statusänderungen eines Apartments zu speichern.
 
 ![Schema MongoDB](../img/mongo_db-diagram.svg)
 
 <details>
-<summary>JSON Mongo DB Schema</summery>
+<summary>JSON Mongo DB Schema</summary>
 
 ### Collection Companies
 
