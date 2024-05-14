@@ -7,8 +7,8 @@ x Projektsteckbrief -> Grund für das Projekt
 x Projektablaufplan erstellen -> Git Project
 x inklusive Projektumfeld -> Stakeholderanalyse
 5. Evaluation von Losungen -> Erhebungstechnik -> Umfrage erstellen -> Umfrage Auswerten
-6. SWOT-Analyse -> Emmbeded Version plantuml
-7. Evaluierung von Lösungen -> MySQL oder MongoDB
+x. SWOT-Analyse -> Emmbeded Version plantuml
+x. Evaluierung von Lösungen Datenbank -> MySQL oder MongoDB
 8. Theoretische Lösungsansätze mit Begründung (System-Design)
 9.  Beziehungen, Einflussgrößen und Schnittstellen
 10. Risikoanalyse und -management
