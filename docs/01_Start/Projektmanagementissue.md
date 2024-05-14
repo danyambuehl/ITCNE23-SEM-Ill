@@ -38,6 +38,7 @@ flowchart LR
 
 Für GitHub Issues wird ein Template verwendet, um die Struktur und den Inhalt der Issues zu standardisieren.
 Für jedes Issue wähle Ich das passende Template aus, um sicherzustellen, dass alle relevanten Informationen enthalten sind.
+
 Die Datei `.github/ISSUE_TEMPLATE/feature_request.md` enthält das Template für Feature Requests.
 
 ```markdown
