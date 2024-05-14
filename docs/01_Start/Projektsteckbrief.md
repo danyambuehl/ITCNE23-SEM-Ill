@@ -1,10 +1,8 @@
 ---
 layout: default
-#layout: minimal
 title: Projektsteckbrief
 parent: Start
 nav_order: 1
-# Vielleicht noch ein Bild oder Symbol hinzufügen?
 ---
 
 ## Projektsteckbrief

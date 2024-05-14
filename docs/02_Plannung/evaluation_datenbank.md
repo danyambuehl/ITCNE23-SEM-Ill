@@ -105,8 +105,8 @@ Das Diagramm wurde mit PlantUML erstellt, leider kann Github PlantUML nicht dire
 
 [SQL Schema](../02_Plannung/sql_schema.iuml){: .btn }
 
-## Vergleich
-
+## Vergleich [^1] [^2]
+ 
 Um die Datenbanken zu vergleichen, werde ich die folgenden Kriterien verwenden:
 
 ### Performance
@@ -129,7 +129,7 @@ Obwohl MongoDB in neueren Versionen Transaktionen unterstützt, ist MySQL in der
 
 MySQL hat eine lange Geschichte und eine große aktive Community, während MongoDB eine jüngere Technologie mit einer wachsenden Community ist. Beide haben professionellen Support von den jeweiligen Unternehmen.
 
-## Entscheidungsmatrix
+## Entscheidungsmatrix [^3]
 
 Um die beiden Datenbanken zu bewerten, erstelle ich eine Entscheidungsmatrix mit den oben genannten Kriterien und gewichte sie entsprechend ihrer Bedeutung für mein Projekt.
 
@@ -143,3 +143,9 @@ Um die beiden Datenbanken zu bewerten, erstelle ich eine Entscheidungsmatrix mit
 
 Beide Datenbanken haben ihre Vor- und Nachteile und eignen sich für unterschiedliche Anwendungsfälle.
 Anhand der Entscheidungsmatrix lässt sich jedoch feststellen, dass MySQL insgesamt besser abschneidet und daher die bessere Wahl für mein Projekt ist.
+
+### Quellen
+
+[^1]: SQL Mongo DB Vergleich [Retrieved from](https://www.ionos.de/digitalguide/server/knowhow/mongodb-vs-sql/)
+[^2]: SQL Mongo DB Vergleich [Retrieved from](https://www.ionos.de/digitalguide/hosting/hosting-technik/mysql-vs-mongodb/)
+[^3]: Entscheidungsmatrix [Retrieved from](https://de.wikipedia.org/wiki/Entscheidungsmatrix)

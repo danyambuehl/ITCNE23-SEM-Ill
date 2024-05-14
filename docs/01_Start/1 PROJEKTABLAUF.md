@@ -5,20 +5,19 @@
 x Projektmanagementmethode wählen -> Lean, Kanban
 x Projektsteckbrief -> Grund für das Projekt
 x Projektablaufplan erstellen -> Git Project
-4. inklusive Projektumfeld -> Stakeholderanalyse
+x inklusive Projektumfeld -> Stakeholderanalyse
 5. Evaluation von Losungen -> Erhebungstechnik -> Umfrage erstellen -> Umfrage Auswerten
-6. 
-7. SWOT-Analyse -> Emmbeded Version plantuml
-8. Evaluierung von Lösungen -> MySQL oder MongoDB
-9. Theoretische Lösungsansätze mit Begründung (System-Design)
-10. Beziehungen, Einflussgrößen und Schnittstellen
-11. Risikoanalyse und -management
-12. Innovationsmanagement
-13. Nachhaltigkeitsaspekte
-14. Compliance und rechtliche Aspekte
-15. Projektmeilensteine festlegen
-16. Dauer der Aufgaben abschätzen - Zeitplan erstellen
-17. Aufgabenliste erstellen und Teilaufgaben definieren
+6. SWOT-Analyse -> Emmbeded Version plantuml
+7. Evaluierung von Lösungen -> MySQL oder MongoDB
+8. Theoretische Lösungsansätze mit Begründung (System-Design)
+9.  Beziehungen, Einflussgrößen und Schnittstellen
+10. Risikoanalyse und -management
+11. Innovationsmanagement
+12. Nachhaltigkeitsaspekte
+13. Compliance und rechtliche Aspekte
+14. Projektmeilensteine festlegen
+15. Dauer der Aufgaben abschätzen - Zeitplan erstellen
+16. Aufgabenliste erstellen und Teilaufgaben definieren
 
 ## Planung
 

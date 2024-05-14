@@ -2,7 +2,7 @@
 layout: default
 title: Projektmanagement Issue
 parent: Start
-nav_order: 1
+nav_order: 3
 ---
 
 ## Issue Management
@@ -34,7 +34,7 @@ flowchart LR
     style Kanban_Board fill:#ff9,stroke:#333,stroke-width:2px,stroke-dasharray: 5, 5
 ```
 
-## Issue Template
+## Issue Template [^1]
 
 Für GitHub Issues wird ein Template verwendet, um die Struktur und den Inhalt der Issues zu standardisieren.
 Für jedes Issue wähle Ich das passende Template aus, um sicherzustellen, dass alle relevanten Informationen enthalten sind.
@@ -89,3 +89,6 @@ __DoD__
 - [ ] Demo with product owner planned
 ```
 
+### Quellen
+
+[^1]: mikro-adventures [Retrieved from](https://gitlab.com/ch-tbz-wb/TE/modules/msvc/mikro-adventures/ma-app/-/issues/7)
