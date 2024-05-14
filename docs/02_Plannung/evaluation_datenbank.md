@@ -103,7 +103,7 @@ Das Diagramm wurde mit PlantUML erstellt, leider kann Github PlantUML nicht dire
 
 ![Schema MySQL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/sql_schema.iuml)
 
-[Link button](../02_Plannung/sql_schema.iuml){: .btn }
+[SQL Schmema](../02_Plannung/sql_schema.iuml){: .btn }
 
 ## Vergleich
 

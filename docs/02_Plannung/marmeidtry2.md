@@ -53,7 +53,7 @@ classDiagram
     }
 ```
 
-
+```mermaid
 flowchart LR
 
 A[Hard] -->|Text| B(Round)
@@ -70,7 +70,9 @@ Note right of John: Rational thoughts!
 John-->>Alice: Great!
 John->>Bob: How about you?
 Bob-->>John: Jolly good!
+```
 
+```mermaid
 stateDiagram-v2
 [*] --> Still
 Still --> [*]
@@ -86,3 +88,4 @@ Crash --> [*]
       B-->D(fa:fa-spinner);
       B-->E(fa:fa-camera-retro perhaps?);
 </div>
+```
