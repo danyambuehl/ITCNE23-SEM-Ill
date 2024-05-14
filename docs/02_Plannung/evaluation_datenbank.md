@@ -128,6 +128,8 @@ MySQL hat eine lange Geschichte und eine große aktive Community, während Mongo
 
 ## Entscheidungsmatrix
 
+Um die beiden Datenbanken zu bewerten, erstelle ich eine Entscheidungsmatrix mit den oben genannten Kriterien und gewichte sie entsprechend ihrer Bedeutung für mein Projekt.
+
 | **Datenbank**  (1-5)  | **Performance**    | **Skalierbarkeit**  | **Flexibilität des Datenschemas** | **ACID-Transaktionen**  | **Community und Support**      | **Gesamtpunktzahl**  |
 |---------------------  |------------------  |---------------------|---------------                    | --------------          | -----------------------------  | -------------------- |
 | Gewichtung            | 0.3                | 0.1                 | 0.1                               | 0.3                     |   0.3                          |                      |
@@ -137,4 +139,4 @@ MySQL hat eine lange Geschichte und eine große aktive Community, während Mongo
 ## Fazit
 
 Beide Datenbanken haben ihre Vor- und Nachteile und eignen sich für unterschiedliche Anwendungsfälle.
-Anhand der Entscheidungsmatrix lässt sich jedoch feststellen, dass MySQL insgesamt besser abschneidet und daher die bessere Wahl für dieses Projekt ist.
+Anhand der Entscheidungsmatrix lässt sich jedoch feststellen, dass MySQL insgesamt besser abschneidet und daher die bessere Wahl für mein Projekt ist.
