@@ -3,9 +3,8 @@ name: Implementation
 about: Beschreibt die Implementierung eines Features
 title: "[FEATURE] "
 labels: enhancement
-assignees: 'danyambuehl'
-projects: ITCNE23-SEM-Ill
-# Activation needed in Settings -> Repository -> Features -> Issues -> Custom issue forms
+assignees: danyambuehl
+
 ---
 
 __Story__

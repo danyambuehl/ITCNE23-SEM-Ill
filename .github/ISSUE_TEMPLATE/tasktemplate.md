@@ -4,7 +4,7 @@ about: Task Template für die Semesterarbeit
 title: ''
 labels: ''
 assignees: danyambuehl
-projects: ITCNE23-SEM-Ill
+
 ---
 
 ## Beschreibung
@@ -14,4 +14,3 @@ projects: ITCNE23-SEM-Ill
 ## Kriterien
 
 - [ ] (Auflistung von Kriterien)
-
