@@ -13,6 +13,8 @@ __Story__
 As a _user_ I want to ... 
 As a _developer_ I want to ... 
 
+In the Story section, describe the user story and the developer story.
+
 __Acceptance criteria__
 
 What needs to be done to consider the story as completed (bullet points)

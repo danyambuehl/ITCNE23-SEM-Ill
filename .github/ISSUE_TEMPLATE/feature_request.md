@@ -7,14 +7,39 @@ assignees: 'danyambuehl'
 projects: ITCNE23-SEM-Ill
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+__Story__
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+As a _user_ I want to ... 
+As a _developer_ I want to ... 
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+In the Story section, describe the user story and the developer story.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+__Acceptance criteria__
+
+What needs to be done to consider the story as completed (bullet points)
+
+__UI__
+
+How should the UI look like? (if applicable)
+
+__Data persistence__
+
+How should the data be stored?
+
+__Effort__
+
+T-Shirt Size:
+
+__DoR__
+
+- [ ] Story defined
+- [ ] Acceptance criteria defined
+- [ ] Effort estimated
+- [ ] Team assigned and agrees on story description
+
+__DoD__
+
+- [ ] Tests defined (backend)
+- [ ] Tests pass during CI test task
+- [ ] Merge request created
+- [ ] Demo with product owner planned
