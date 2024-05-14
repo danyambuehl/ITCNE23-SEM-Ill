@@ -30,7 +30,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ### Collection Companies
 
-```json
+```
 {
     "_id": MongoDB ObjectId,
     "name": String, // Name des Unternehmens
@@ -47,7 +47,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ### Collection Apartments & ApartmentStatusHistory
 
-```json
+```
 {
     "_id": MongoDB ObjectId,
     "company": MongoDB ObjectId, // Referenz auf das Immobilienunternehmen
@@ -77,7 +77,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ### Collection Users
 
-```json
+```
 {
     "_id": MongoDB ObjectId,
     "username": String, // Benutzername
