@@ -14,7 +14,7 @@ nav_order: 1
 ## Evaluation Datenbank
 
 Die Wahl der richtigen Datenbank für mein Projekt ist von grosser Bedeutung.
-In diesem Abschnitt werde ich die Vor- und Nachteile von MongoDB und MySQL vergleichen, um eine nachvollziebare Entscheidung für die beste Datenbankwahl für mein Projekt zu treffen.
+In diesem Abschnitt werde ich die Vor- und Nachteile von MongoDB und MySQL vergleichen, um eine nachvollziehbare Entscheidung für die beste Datenbankwahl für mein Projekt zu treffen.
 Am Ende werde ich eine Entscheidungsmatrix erstellen, um die verschiedenen Kriterien zu bewerten und eine endgültige Entscheidung zu treffen.
 
 Damit ich einen Überblick über die Datenbanken habe, erstelle ich zuerst ein Datenbankschema für beide Datenbanken.
@@ -31,7 +31,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ### Collection Companies
 
-```
+```c
 {
     "_id": MongoDB ObjectId,
     "name": String, // Name des Unternehmens
@@ -48,7 +48,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ### Collection Apartments & ApartmentStatusHistory
 
-```
+```c
 {
     "_id": MongoDB ObjectId,
     "company": MongoDB ObjectId, // Referenz auf das Immobilienunternehmen
@@ -78,7 +78,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
 
 ### Collection Users
 
-```
+```c
 {
     "_id": MongoDB ObjectId,
     "username": String, // Benutzername
