@@ -3,6 +3,7 @@ layout: default
 title: MERMEID TRY 2
 parent: Planung
 nav_order: 1
+mermaid: true
 # Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
 #```python
 #uuid.uuid1()    # Unique ID
