@@ -3,6 +3,7 @@ layout: default
 title: Zeitplan
 parent: Planung
 nav_order: 1
+mermaid: true
 ---
 
 ## Zeitplan
@@ -20,3 +21,19 @@ Der Zeitplan ist in der folgenden Tabelle dargestellt.
 |21.07.24               | Mitteilung der Noten                                  | Lehrgangsleiter | Studierende |
 
 Um den detaillierten Zeitplan einzusehen, öffnen Sie bitte das Projektmanagement-Tool auf ([Github Project](https://github.com/users/danyambuehl/projects/3)). Dort finden Sie alle Informationen zur Projektplanung.
+
+```mermaid
+gantt
+    title Projektplan ITCNE23-SEM-lll
+    dateFormat  DD.MM.YY
+    section Produktionsphase
+    Produktions            :done, prod, 03.05.24, 1d
+    section Einreichung
+    Abgabe Einreichungsformular Semesterarbeit: active, submit, 06.05.24, 5d
+    section Zwischenbesprechung
+    Einzelbesprechung Zwischenstand: milestone, meet, 27.05.24, 1d
+    section Abschlussphase
+    Abgabe der Arbeit / Schlusspräsentationen (online) : active, present, 05.07.24, 4d
+    Notenvorschlag                                      : note, grade_suggestion, 14.07.24, 1d
+    Mitteilung der Noten                                : milestone, grades_announcement, 21.07.24, 1d
+```
