@@ -19,10 +19,6 @@ Die Arbeit wird in mehrere Issues unterteilt, wodurch der Fortschritt nachvollzo
 
 Für das Gesamtprojektmanagement wird ([Github Project](https://github.com/users/danyambuehl/projects/3)) verwendet. Diese Plattform erleichtert die Zusammenarbeit und Nachverfolgung von Änderungen und sorgt für eine zentrale Verwaltung von Aufgaben, Diskussionen und Ressourcen.
 
-Sprints werden in der Roadmap geplant und dienen als Leitfaden für die Umsetzung der Arbeitspakete. Die Roadmap wird regelmässig aktualisiert und an die sich ändernden Anforderungen angepasst.
-
-Die einzelnen Issues werden in der Taskleiste erfasst und nach verschiedenen Kategorien gefiltert und gruppiert. Die Taskleiste dient zur besseren Übersicht und Strukturierung der Aufgaben.
-
 ![Kanban Board](../img/kanban-board.png)
 
 ### Kanban-Board [^1]
