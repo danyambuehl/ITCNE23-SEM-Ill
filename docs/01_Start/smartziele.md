@@ -9,7 +9,7 @@ parent: Start
 
 ## SMART-Ziele [^1]
 
-![Smart Ziele](../img/smart-ziele.webp) [^2]
+![Smart Ziele](../img/smart_ziele.webp) [^2]
 
 ## Was sind SMART-Ziele?
 

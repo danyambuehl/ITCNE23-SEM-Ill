@@ -37,3 +37,4 @@ gantt
     Notenvorschlag                                      : note, grade_suggestion, 14.07.24, 1d
     Mitteilung der Noten                                : milestone, grades_announcement, 21.07.24, 1d
 ```
+
