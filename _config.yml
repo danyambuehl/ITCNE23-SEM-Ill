@@ -32,6 +32,7 @@ mermaid:
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   #version: "9.1.6"
   version: "10.0.2"
+  path: "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"  # Use the CDN for the latest version
   # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
   # See also docs/ui-components/code
   # To load mermaid from a local library, also use the `path` key to specify the location of the library; e.g.
