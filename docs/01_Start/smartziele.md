@@ -9,6 +9,8 @@ parent: Start
 
 ## SMART-Ziele [^1]
 
+<img src="../img/smart_ziele.webp" alt="Smart Ziele" style="width:50%;"/> [^2]
+
 ![Smart Ziele](../img/smart_ziele.webp) [^2]
 
 ## Was sind SMART-Ziele?
