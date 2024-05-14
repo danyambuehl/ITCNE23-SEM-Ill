@@ -19,7 +19,11 @@ Die Arbeit wird in mehrere Issues unterteilt, wodurch der Fortschritt nachvollzo
 
 Für das Gesamtprojektmanagement wird ([Github Project](https://github.com/users/danyambuehl/projects/3)) verwendet. Diese Plattform erleichtert die Zusammenarbeit und Nachverfolgung von Änderungen und sorgt für eine zentrale Verwaltung von Aufgaben, Diskussionen und Ressourcen.
 
-![Kanban Board](/docs/img/kanban-board.png)
+Sprints werden in der Roadmap geplant und dienen als Leitfaden für die Umsetzung der Arbeitspakete. Die Roadmap wird regelmässig aktualisiert und an die sich ändernden Anforderungen angepasst.
+
+Die einzelnen Issues werden in der Taskleiste erfasst und nach verschiedenen Kategorien gefiltert und gruppiert. Die Taskleiste dient zur besseren Übersicht und Strukturierung der Aufgaben.
+
+![Kanban Board](../img/kanban-board.png)
 
 ## Kanban-Board [^1]
 
@@ -39,14 +43,14 @@ Die neue Aufgabenliste wird so konzipiert, dass jeder einzelne Task mit spezifis
 
 Das Priority Board dient zur Priorisierung der Aufgaben und hilft, die wichtigsten und dringendsten Aufgaben zu identifizieren. Es ermöglicht eine klare Zuordnung von Aufgaben nach ihrer Wichtigkeit und Dringlichkeit und erleichtert die Planung und Umsetzung der Arbeitsprozesse.
 
-![Kanban Board](/docs/img/tasklist.png)
-
 ### Task Kategorien [^5]
 
 - Status
 - Priorität
 - Grösse
 - Label
+
+![Kanban Board](../img/tasklist.png)
 
 ### Task Status [^6]
 
