@@ -21,6 +21,17 @@ graph TD;
     C-->D;
 ```
 
+## HTML VERSION
+
+<div class="mermaid">
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
+
+
 ```mermaid
 ---
 title: Animal example
