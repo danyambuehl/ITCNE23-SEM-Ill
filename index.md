@@ -29,4 +29,4 @@ Und wer weiss, mit ein bisschen Glück und viel Code könnte meine Arbeit dazu b
 
 ## Dokumente
 
-[Einreichungsformular Semesterarbeit](ITCNE23_Semesterarbeit 3 (Einreichungsformular).docx){: .btn }
+[Einreichungsformular Semesterarbeit](ITCNE23_Semesterarbeit_3.docx){: .btn }
