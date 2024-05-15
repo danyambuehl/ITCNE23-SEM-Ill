@@ -7,7 +7,7 @@ banner: /img/banner_2.png
 ---
 ![Custom Banner](/docs/img/wohnungsnot.jpeg)
 
-## Willkommen
+## Der Traum vom Wohnen in einer Züricher Baugenossenschaft
 
 In meiner Semesterarbeit widme ich mich dem aktuellen Problem, erschwinglichen Wohnraum in Zürich zu finden.
 Mein Ansatz hierzu erfolgt aus der Perspektive eines Informatikers, indem ich moderne Technologien nutze, um den Zugang zu freien Genossenschaftswohnungen effizienter zu gestalten.
@@ -26,3 +26,7 @@ Und wer weiss, mit ein bisschen Glück und viel Code könnte meine Arbeit dazu b
 | Ziele  | - Entwicklung eines Tools indem Mitglieder über verfügbaren Genossenschaftswohnungen informiert werden |
 |   | - Implementierung einer REST-API und Microservices-Architektur |
 |   | - Smartphone-Benachrichtigungsfunktion |
+
+## Dokumente
+
+[Einreichungsformular Semesterarbeit](ITCNE23_Semesterarbeit 3 (Einreichungsformular).docx){: .btn }

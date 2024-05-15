@@ -57,7 +57,6 @@ quadrantChart
     TBZ: [0.75, 0.20]
     Technologieanbieter: [0.25, 0.25]
     Datenschutzexperten: [0.75, 0.30]
-
 ```
 
 ## 4. Strategien zur Einbindung der Stakeholder
