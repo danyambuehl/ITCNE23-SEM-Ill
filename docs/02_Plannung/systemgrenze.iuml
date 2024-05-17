@@ -1,0 +1,35 @@
+@startuml
+!theme lightgray
+
+skinparam component {
+  BorderColor gold
+  BackgroundColor lightcoral
+  FontStyle bold
+}
+
+package "Systemgrenze" {
+  component "Microservices" {
+    component "Flask Frontend"
+    component "REST-API"
+    component "MySQL"
+  }
+  
+}
+
+actor "End-User"
+component "Git Pipeline"
+component "Cloud Provider"
+component "Pushover"
+component "Genossenschaften"
+
+[MySQL] <-right-> [REST-API] : S1
+[Flask Frontend] <-left-> [REST-API] : S2
+[Git Pipeline] -left-> [Microservices] : S4
+[Pushover] -up-> [REST-API] : S3
+[Git Provider] -up-> [Git Pipeline]
+[Cloud Provider] <-up-> [Systemgrenze]
+[End-User] <-down-> [Flask Frontend] : S5
+[End-User] <-down-> [REST-API] : S6
+[Genossenschaften] <-down- [Systemgrenze] : S7
+
+@enduml
