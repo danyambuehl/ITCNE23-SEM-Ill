@@ -12,12 +12,15 @@ Die folgende Grafik stellt den Aufbau meines Projektes dar.
 
 ![Projektorganisation](../img/project_organisation.png)
 
-## Team Strucktur
+---
+
+## Team Struktur
 
 Und hier ist die Struktur meines Scrum-Teams, in der die Rollen der einzelnen Personen sowie ihre Beziehungen zueinander dargestellt werden.
 
 ```mermaid
 C4Context
+title Scrum Team Structure
 
 %% Define persons
 Person(Philipp, "Rohr Philipp", "Expert")
@@ -50,6 +53,8 @@ Rel(tbz, Dany, "foster")
 
 
 ```
+
+---
 
 ## Scrum Team Rollen
 

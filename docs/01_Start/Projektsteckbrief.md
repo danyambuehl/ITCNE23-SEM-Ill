@@ -13,7 +13,7 @@ Dies werde ich tun, indem ich das Problem aus der Perspektive eines Informatiker
 
 Durch die Bearbeitung dieses Themas hoffe ich, ein tieferes Verständnis für Microservices mit Python zu erlangen und gleichzeitig praktische Fähigkeiten in der Implementierung einer REST-API zu entwickeln."
 
-<img src="../img/genossenschaft_microservice.webp" alt="Microservice Genossenschaft" style="width:65%;"/> [^1]
+<img src="../img/genossenschaft_microservice.webp" alt="Microservice Genossenschaft" style="width:75%;"/> [^1]
 
 ### Quellen
 

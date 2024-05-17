@@ -2,19 +2,19 @@
 layout: default
 title: Stakeholderanalyse
 parent: Start
-nav_order: 4
+nav_order: 6
 # Regelmässige Überprüfung der Einbindung.
 # Engere Zusammenarbeit mit den Experten.
 # Verbesserung der Feedbackmechanismen.
 # Kontinuierliche Evaluierung und Anpassung.
 ---
 
-# Stakeholderanalyse
+## Stakeholderanalyse
 
 Die Stakeholderanalyse ist ein wichtiger Bestandteil des Projektmanagements, um die Interessen und Anforderungen der Beteiligten zu identifizieren und zu berücksichtigen.
 In diesem Abschnitt werden die Stakeholder des Projekts identifiziert, analysiert und eine Strategie zur Einbindung entwickeln.
 
-## 1. Identifikation der Stakeholder [^1]
+### 1. Identifikation der Stakeholder [^1]
 
 | Stakeholder                    | Beschreibung                                                         |
 |--------------------------------|----------------------------------------------------------------      |
@@ -26,7 +26,7 @@ In diesem Abschnitt werden die Stakeholder des Projekts identifiziert, analysier
 | **Technologieanbieter** | Stellen die technischen Werkzeuge und Plattformen zur Verfügung.            |
 | **Datenschutz- und Sicherheitsexperten** | Beraten zu rechtlichen und sicherheitsrelevanten Aspekten. |
 
-## 2. Analyse der Stakeholder [^2]
+### 2. Analyse der Stakeholder [^2]
 
 | Stakeholder                    | Interessen                                                    | Einfluss auf das Projekt  | Bedeutung für das Projekt |
 |--------------------------------|----------------------------------------------------------------|--------------------------|---------------------------|
@@ -38,7 +38,7 @@ In diesem Abschnitt werden die Stakeholder des Projekts identifiziert, analysier
 | **Technologieanbieter**        | Nutzung und Verbreitung ihrer Tools und Plattformen.           | Gering                   | Mittel                    |
 | **Datenschutzexperten**        | Einhaltung von Datenschutzrichtlinien, Sicherheit.             | Mittel                   | Hoch                      |
 
-## 3. Analyse der Stakeholder [^2]
+### 3. Analyse der Stakeholder [^2]
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'quadrant1Fill': '#ffcccc', 'quadrant2Fill': '#ccffcc', 'quadrant3Fill': '#ccccff', 'quadrant4Fill': '#ffebcc' }}}%%
@@ -59,7 +59,7 @@ quadrantChart
     Datenschutzexperten: [0.75, 0.30]
 ```
 
-## 4. Strategien zur Einbindung der Stakeholder
+### 4. Strategien zur Einbindung der Stakeholder
 
 | Stakeholder                    | Kommunikationsstrategie                                        | Massnahmen zur Einbindung                       |
 |--------------------------------|----------------------------------------------------------------|-------------------------------------------------|
@@ -71,7 +71,7 @@ quadrantChart
 | **Technologieanbieter**        | Best Practices, Free-Tier verwenden.                           | Teilnahme an Webinar, Education Program verwenden |
 | **Datenschutzexperten**        | Compliance-Bericht, Rechtliche Aspekte                         | Überprüfungen, mit lehrperson besprechen        |
 
-## 5. Bewertung und Anpassung
+### 5. Bewertung und Anpassung
 
 | Kriterium                      | Bewertung (Skala 1-5) | Massnahmen zur Verbesserung               |
 |--------------------------------|-----------------------|-------------------------------------------|

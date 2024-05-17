@@ -56,22 +56,14 @@ Das Ziel ist, kontinuierlich Verbesserungen im Prozess und in der Zusammenarbeit
 
 ### Zusammenfassung der Phasen
 
-1. **Sprint Planning**
-   - Tasks vom Product Backlog ins Sprint Backlog verschieben
-
-2. **Daily Scrum**
-   - Regelmässig kurzes Meeting zur Statusüberprüfung
-   - Beantwortung der Fragen: Was wurde gemacht, was sind die Probleme, was wird gemacht
-
-3. **Sprint Review**
-   - Präsentation des Sprint-Mehrwerts an die Stakeholder
-   - Überprüfung der vollständigen Bearbeitung aller Tasks
-
-4. **Sprint Retrospektive**
-   - Reflexion über den Sprint
-   - Identifikation von Verbesserungen
-
 Diese Phasen unterstützen den kontinuierlichen Fortschritt und die Qualitätssicherung innerhalb des Scrum-Prozesses.
+
+| Aktivität                | Beschreibung                                                                                      |
+|--------------------------|---------------------------------------------------------------------------------------------------|
+| Sprint Planning          | Tasks vom Product Backlog ins Sprint Backlog verschieben                                          |
+| Daily Scrum              | Regelmäßiges kurzes Meeting zur Statusüberprüfung<br>Beantwortung der Fragen: Was wurde gemacht, was sind die Probleme, was wird gemacht |
+| Sprint Review            | Präsentation des Sprint-Mehrwerts an die Stakeholder<br>Überprüfung der vollständigen Bearbeitung aller Tasks                     |
+| Sprint Retrospektive     | Reflexion über den Sprint<br>Identifikation von Verbesserungen                                   |
 
 ### Quellen
 

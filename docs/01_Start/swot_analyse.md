@@ -2,7 +2,7 @@
 layout: default
 title: SWOT Analyse
 parent: Start
-nav_order: 5
+nav_order: 7
 ---
 ## SWOT-Analyse
 
@@ -61,25 +61,12 @@ nav_order: 5
 
 ## Strategien zur Nutzung der SWOT-Analyse
 
-**Stärken nutzen:**
-
-- Implementierung der modernen Technologien, um eine flexible und skalierbare Plattform zu gewährleisten.
-- Die mobile Verfügbarkeit und Flexibilität hervor.
-
-**Schwächen minimieren:**
-
-- Enge Zusammenarbeit mit Fachexperten zur Bewältigung technischer Herausforderungen.
-- Einsatz von bereits vorhandenen Technologien, die verschiedene Smartphone-Betriebssysteme unterstützen
-
-**Chancen ergreifen:**
-
-- Erweiterungsmöglichkeiten in andere Städte und Regionen evaluieren.
-- Fortlaufend Dokumentieren um meine Erfahrungen zu teilen und zu lernen
-
-**Bedrohungen abwehren:**
-
-- Sicherstellen, dass alle Datenschutz- und Sicherheitsanforderungen erfüllt sind.
-- Plattform kontinuierlich anpassen, um wettbewerbsfähig zu bleiben.
+| Kategorie            | Maßnahmen                                                                                                  |
+|----------------------|------------------------------------------------------------------------------------------------------------|
+| **Stärken nutzen**   | - Implementierung der modernen Technologien, um eine flexible und skalierbare Plattform zu gewährleisten.<br>- Die mobile Verfügbarkeit und Flexibilität hervorheben.                 |
+| **Schwächen minimieren** | - Enge Zusammenarbeit mit Fachexperten zur Bewältigung technischer Herausforderungen.<br>- Einsatz von bereits vorhandenen Technologien, die verschiedene Smartphone-Betriebssysteme unterstützen. |
+| **Chancen ergreifen** | - Erweiterungsmöglichkeiten in andere Städte und Regionen evaluieren.<br>- Fortlaufend dokumentieren, um meine Erfahrungen zu teilen und zu lernen.                                    |
+| **Bedrohungen abwehren** | - Sicherstellen, dass alle Datenschutz- und Sicherheitsanforderungen erfüllt sind.<br>- Plattform kontinuierlich anpassen, um wettbewerbsfähig zu bleiben.                          |
 
 ### Quellen
 

@@ -2,7 +2,7 @@
 layout: default
 title: MERMEID TRY 2
 parent: Planung
-nav_order: 1
+nav_order: 5
 mermaid: true
 # Write me a SQL Alchemy Modeles for this Schema -> CHatgpt 
 #```python
