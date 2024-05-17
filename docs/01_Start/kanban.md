@@ -1,17 +1,12 @@
 ---
 layout: default
-#layout: minimal
-title: Projektmanagementmethode
+title: Agiles Projektmanagement mit Kanban
 parent: Start
-nav_order: 2
+nav_order: 3
 # Wie kann ich einen Kommentar in Markdown einfügen? <!-- Dies ist ein Kommentar, der nicht angezeigt wird -->
-# Taskliste zu Taskleiste umbennenen und nach Roadmap verschieben
-# Print Screen von Kanbanboard mit den einzelnen Registern
-# Team Items entfernen?
-# Priority Board beschrieben
 ---
 
-## Projektmanagementmethode
+## Agiles Projektmanagement mit Kanban
 
 In dieser Semesterarbeit wird die agile Methode Kanban für das Projektmanagement angewandt. Diese Methode visualisiert Arbeitsprozesse und steuert den Arbeitsfluss effektiv. Ihre Flexibilität und Anpassungsfähigkeit sind der Schlüssel für diese Entscheidung.
 
