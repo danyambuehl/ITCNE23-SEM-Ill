@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SUSAG
+parent: Planung
 nav_order: 3
 ---
 
@@ -23,6 +24,8 @@ Die Systemgrenze definiert den Umfang des Systems und grenzt es von der Umwelt a
 | S5 | Verbindung zwischen dem End-User und dem Flask Frontend zur Interaktion mit der Benutzeroberfläche. |
 | S6 | Direkte Verbindung zwischen dem End-User und der REST-API für API-Abfragen und -Antworten. |
 | S7 | Verbindung zwischen dem System zur und der Genossenschaften Wohnungsdaten. |
+| S8 | NoIP Dynamic Update Client gets new Public IP Address to link to DDNS Name |
+| S9 | Git Variable has a Dynamic Host Name from NoIP |
 
 ### Einflussgrössen festhalten
 
@@ -46,6 +49,7 @@ block-beta
         Genossenschaften
     end
     
+    %% Define Relationships
     Entwickler-- "A" --> Einflussgroesse
     Dozenten-- "B" --> Einflussgroesse
     EndUser-- "C" --> Einflussgroesse
@@ -54,10 +58,13 @@ block-beta
     CloudProvider-- "F" --> Einflussgroesse
     Genossenschaften-- "G" --> Einflussgroesse
 
+    %% Define Styles
     style Einflussgroesse fill:#66c2a5,stroke:#333,stroke-width:4px
 ```
 
 ### Einflussgrößen und Schnittstellen
+
+Schnittstellen sind die Verbindungen zwischen den einzelnen Systemelementen und ermöglichen den Austausch von Informationen, Energie oder Materie. Sie sind ein wichtiger Bestandteil der Systemanalyse und dienen dazu, die Interaktionen zwischen den Systemelementen zu beschreiben. Die Definition von Schnittstellen hilft dabei, die Beziehungen und Abhängigkeiten im System zu verstehen und zu analysieren.
 
 | **Schnittstelle** | **Einflussgröße**    | **Beschreibung** |
 |-------------------|----------------------|------------------|
@@ -73,6 +80,94 @@ block-beta
 
 Unter- und Teilsysteme sind Bestandteile des Gesamtsystems, die eine spezifische Funktion erfüllen. Sie können als eigenständige Systeme betrachtet werden und haben eine klare Abgrenzung zu anderen Teilsystemen. Die Abgrenzung von Unter- und Teilsystemen hilft dabei, die Komplexität des Gesamtsystems zu reduzieren und die Analyse auf die relevanten Elemente zu fokussieren.
 
-### Schnittstellen definieren
+```mermaid
+flowchart TB
+    %% Define the System Boundary
+    subgraph Systemgrenze["Boundary"]
+        direction TB
+        %% Define Entwickler Block
+        subgraph Entwicklerumgebung["Entwicklerumgebung"]
+            Git
+            Docker["Docker"]
+        end
+        %% Define AWS Infrastructure Block
+        subgraph Infrastructure["AWS Infrastructure (EC2)"]
+            direction TB
+                    %% Define Microservices Block
+        subgraph Microservices["Microservice"]
+            direction TB
+            FlaskFrontend["Flask Frontend"]
+            RESTAPI["REST-API"]
+            MySQL["MySQL"]
+        end
+        end
+        %% Define Github Infrastructure Block
+        subgraph Github_Infrastructure["Github Infrastructure"]
+            direction TB
+            GitRepository["Git Repository"]
+            GitVariables["Git Variables"]
+            GitPipeline["Git Pipeline"]
+            Registry["Docker Registry"]
+        end
+        %% Define Pushover Block
+        subgraph Pushover
+            direction TB
+            PushoverService
+        end
+        %% Define noip Block
+        subgraph noip
+            direction TB
+            IP["IP Service"]
+        end
+    end
 
-Schnittstellen sind die Verbindungen zwischen den einzelnen Systemelementen und ermöglichen den Austausch von Informationen, Energie oder Materie. Sie sind ein wichtiger Bestandteil der Systemanalyse und dienen dazu, die Interaktionen zwischen den Systemelementen zu beschreiben. Die Definition von Schnittstellen hilft dabei, die Beziehungen und Abhängigkeiten im System zu verstehen und zu analysieren.
+    EndUser["Mobile Phone"]
+
+    %% Define Columns
+    Teilsysteme["Teilsysteme"]
+    Untersysteme["Untersysteme"]
+
+    %% Define Relationships
+    FlaskFrontend <-->|calls| RESTAPI
+    RESTAPI <-->|queries| MySQL
+    GitPipeline -->|builds images| Registry
+    GitRepository -->| triggers | GitPipeline
+    GitRepository -->| has| GitVariables
+    GitVariables -->| has ddns| noip
+    noip -->| provides | Infrastructure
+    Registry -->|Image gets deployed on | Infrastructure
+    RESTAPI -->|sends notifications to| Pushover
+    Pushover -->|sends Notification| EndUser
+    Git <--> |push/pull| GitRepository
+
+    %% Define Styles
+    style Entwicklerumgebung fill:#66cc66,stroke:#339933,stroke-width:4px
+    style Microservices fill:#66cc66,stroke:#339933,stroke-width:4px
+    style Github_Infrastructure fill:#66cc66,stroke:#339933,stroke-width:4px
+    style Infrastructure fill:fill:#99e699,stroke:#339933,stroke-width:4px
+    style Teilsysteme fill:#66cc66,stroke:#339933,stroke-width:4px
+    style Pushover fill:#66cc66,stroke:#339933,stroke-width:4px
+    style noip fill:#66cc66,stroke:#339933,stroke-width:4px
+```
+
+### Analyse Teilsysteme
+
+**Entwicklerumgebung**
+
+Die Entwicklerumgebung ist ein Teilsystem des Gesamtsystems, das die Entwicklungsumgebung für die Entwickler bereitstellt. Sie umfasst Tools, Plattformen und Prozesse, die für die Entwicklung, das Testen und die Bereitstellung von Software benötigt werden. Die Entwicklerumgebung spielt eine wichtige Rolle bei der Effizienz, Qualität und Skalierbarkeit des Entwicklungsprozesses.
+
+**AWS Infrastructure**
+
+Die AWS-Infrastruktur ist ein Teilsystem des Gesamtsystems, das die Cloud-Infrastruktur für das Projekt bereitstellt. Sie umfasst virtuelle Maschinen, Speicher, Netzwerke und andere Ressourcen, die für die Bereitstellung und den Betrieb des Systems benötigt werden. Die AWS-Infrastruktur bietet Skalierbarkeit, Verfügbarkeit und Sicherheit für das Projekt.
+
+**Github Infrastructure**
+
+Die Github-Infrastruktur ist ein Teilsystem des Gesamtsystems, das die Versionsverwaltung und Continuous Integration für das Projekt bereitstellt. Sie umfasst Git-Repositories, Git-Variablen, Git-Pipelines und Docker-Registries, die für die Entwicklung, das Testen und die Bereitstellung von Software benötigt werden. Die Github-Infrastruktur bietet eine effiziente und kollaborative Entwicklungsumgebung für das Projekt.
+
+**Pushover**
+
+Pushover ist ein Teilsystem des Gesamtsystems, das die Benachrichtigungsfunktion für die Endbenutzer bereitstellt. Es ermöglicht es dem System, Benachrichtigungen über wichtige Ereignisse oder Aktualisierungen an die Endbenutzer zu senden. Pushover spielt eine wichtige Rolle bei der Kommunikation und Interaktion mit den Benutzern.
+
+**noip**
+
+noip ist ein Teilsystem des Gesamtsystems, das die Kosten die durch die Nutzung von AWS Elastic IP entstehen würden zu vermeiden und stellt den dynamischen DNS-Dienst für das Projekt bereit. Es ermöglicht es dem System, eine dynamische IP-Adresse mit einem festen Domainnamen zu verknüpfen. noip spielt eine wichtige Rolle bei der Erreichbarkeit und Zuverlässigkeit des Systems.

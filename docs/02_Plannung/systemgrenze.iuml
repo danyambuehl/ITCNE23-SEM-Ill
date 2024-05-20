@@ -18,6 +18,7 @@ package "Systemgrenze" {
 
 actor "End-User"
 component "Git Pipeline"
+component "noip"
 component "Cloud Provider"
 component "Pushover"
 component "Genossenschaften"
@@ -31,5 +32,7 @@ component "Genossenschaften"
 [End-User] <-down-> [Flask Frontend] : S5
 [End-User] <-down-> [REST-API] : S6
 [Genossenschaften] <-down- [Systemgrenze] : S7
+[noip] <-down-> [Cloud Provider]: S8
+[noip] <-up-> [Git Pipeline]: S9
 
 @enduml

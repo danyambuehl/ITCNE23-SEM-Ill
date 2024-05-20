@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Git Branching
-parent: Projekt
+parent: Planung
 nav_order: 5   
 ---
 
