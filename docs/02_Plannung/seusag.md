@@ -10,11 +10,64 @@ nav_order: 3
 
 Die Systemgrenze definiert den Umfang des Systems und grenzt es von der Umwelt ab. Sie zeigt, welche Elemente zum System gehören und welche nicht. Die Systemgrenze ist ein wichtiger Bestandteil der Systemanalyse und dient dazu, den Untersuchungsgegenstand klar zu definieren. Sie hilft dabei, die Komplexität des Systems zu reduzieren und die Analyse auf die relevanten Elemente zu fokussieren.
 
-![Schema MySQL](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/systemgrenze.iuml)
+![Systemgrenze definieren](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/danyambuehl/ITCNE23-SEM-Ill/main/docs/02_Plannung/systemgrenze.iuml)
+
+## Schnittstellen
+
+| Schnittstelle | Beschreibung |
+|---------------|--------------|
+| S1 | Verbindung zwischen der REST-API und der MySQL-Datenbank zur Speicherung und Abfrage von Daten. |
+| S2 | Verbindung zwischen dem Flask Frontend und der REST-API zur Bereitstellung von Frontend-Funktionen. |
+| S3 | Verbindung zwischen Pushover und der REST-API zur Benachrichtigung der Benutzer. |
+| S4 | Verbindung zwischen der Git Pipeline und den Microservices für kontinuierliche Integration und Bereitstellung. |
+| S5 | Verbindung zwischen dem End-User und dem Flask Frontend zur Interaktion mit der Benutzeroberfläche. |
+| S6 | Direkte Verbindung zwischen dem End-User und der REST-API für API-Abfragen und -Antworten. |
+| S7 | Verbindung zwischen dem System zur und der Genossenschaften Wohnungsdaten. |
 
 ### Einflussgrössen festhalten
 
 Einflussgrössen sind Faktoren, die das System beeinflussen und von ihm beeinflusst werden. Sie können intern oder extern sein und haben einen Einfluss auf die Leistung, das Verhalten oder die Struktur des Systems. Einflussgrössen können sich im Laufe der Zeit ändern und müssen daher regelmässig überprüft und aktualisiert werden.
+
+```mermaid
+block-beta
+    columns 1
+    block:ID
+        Entwickler
+        Dozenten
+        EndUser["End-User"]
+    end
+    space
+    Einflussgroesse["Einflussgrösse"]
+    space
+    block:ID2
+        Compliance["Datenschutzgesetzen"] 
+        Datenbank
+        CloudProvider["Cloud Provider"]
+        Genossenschaften
+    end
+    
+    Entwickler-- "A" --> Einflussgroesse
+    Dozenten-- "B" --> Einflussgroesse
+    EndUser-- "C" --> Einflussgroesse
+    Datenbank-- "E" --> Einflussgroesse
+    Compliance-- "D" --> Einflussgroesse
+    CloudProvider-- "F" --> Einflussgroesse
+    Genossenschaften-- "G" --> Einflussgroesse
+
+    style Einflussgroesse fill:#66c2a5,stroke:#333,stroke-width:4px
+```
+
+### Einflussgrößen und Schnittstellen
+
+| **Schnittstelle** | **Einflussgröße**    | **Beschreibung** |
+|-------------------|----------------------|------------------|
+| A                 | Entwickler           | Der Entwickler ist verantwortlich für die Programmierung und Implementierung der Systemkomponenten. Meine technischen Fähigkeiten und Effizienz beeinflussen direkt die Qualität des Projekts. |
+| B                 | Dozenten             | Die Dozenten überwachen den Fortschritt des Projekts, geben fachliches Feedback und bewerten die Arbeit. Ihr Input kann helfen, die Richtung des Projekts zu korrigieren und die Qualität zu verbessern. |
+| C                 | End-User             | Die Nutzer der Plattform, beeinflussen das Projekt durch ihr Feedback und ihre Nutzungsmuster. Ihre Anforderungen und Zufriedenheit sind entscheidend für den Erfolg und die Akzeptanz der Plattform. |
+| D                 | Compliance           | Compliance sorgt dafür, dass das Projekt alle relevanten Datenschutzgesetze und -richtlinien einhält. Dies schützt das Projekt vor rechtlichen Problemen. |
+| E                 | Datenbank            | Die Datenbank verwaltet und speichert alle relevanten Daten. Ihre Performance und Zuverlässigkeit sind kritisch für die schnelle und korrekte Verarbeitung von Nutzeranfragen und Datenzugriffen. |
+| F                 | Cloud Provider       | Der Cloud Provider stellt die notwendige Infrastruktur und Hosting-Dienste zur Verfügung. Er beeinflusst die Skalierbarkeit, Verfügbarkeit und Sicherheit des Systems. |
+| G                 | Genossenschaften     | Genossenschaften liefern die Daten zu verfügbaren Wohnungen. Diese Informationen sind entscheidend für die Relevanz und Attraktivität der Plattform für die Nutzer. |
 
 ### Unter- und Teilsysteme abgrenzen
 
@@ -23,4 +76,3 @@ Unter- und Teilsysteme sind Bestandteile des Gesamtsystems, die eine spezifische
 ### Schnittstellen definieren
 
 Schnittstellen sind die Verbindungen zwischen den einzelnen Systemelementen und ermöglichen den Austausch von Informationen, Energie oder Materie. Sie sind ein wichtiger Bestandteil der Systemanalyse und dienen dazu, die Interaktionen zwischen den Systemelementen zu beschreiben. Die Definition von Schnittstellen hilft dabei, die Beziehungen und Abhängigkeiten im System zu verstehen und zu analysieren.
-
