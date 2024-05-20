@@ -10,18 +10,18 @@ x inklusive Projektumfeld -> Stakeholderanalyse
 x. SWOT-Analyse -> Emmbeded Version plantuml
 x. Evaluierung von Lösungen Datenbank -> MySQL oder MongoDB
 8. Theoretische Lösungsansätze mit Begründung (System-Design)
-9.  Beziehungen, Einflussgrößen und Schnittstellen
+x SEUSAG Beziehungen, Einflussgrößen und Schnittstellen
 10. Risikoanalyse und -management
 11. Innovationsmanagement
 12. Nachhaltigkeitsaspekte
 13. Compliance und rechtliche Aspekte
 14. Projektmeilensteine festlegen
-15. Dauer der Aufgaben abschätzen - Zeitplan erstellen
-16. Aufgabenliste erstellen und Teilaufgaben definieren
+x Dauer der Aufgaben abschätzen - Zeitplan erstellen
+x Aufgabenliste erstellen und Teilaufgaben definieren
 
 ## Planung
 
-1. Projektauftrag
+x Projektauftrag
 2. Theoretische Losungsansatze mit Begrundung (System-Design) -> Nutzwertanalyce -> WirschaftslichkeitsAnalyze
 3. Risikoanalyse und -management -> Risikokatalog  -Risikomatrix -> Risikobewertung -
 4. Projektorganisation -> klare Rollenverteilung
