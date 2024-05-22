@@ -1,3 +1,10 @@
+---
+layout: default
+title: Projektablauf
+parent: Offen
+nav_order: 1
+---
+
 # Projektablauf
 
 ## Start

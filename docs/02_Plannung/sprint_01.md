@@ -2,7 +2,7 @@
 layout: default
 title: Sprint 01
 parent: Planung
-nav_order: 8
+nav_order: 10
 ---
 
 ## Sprint 01
