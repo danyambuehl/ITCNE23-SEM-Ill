@@ -13,7 +13,38 @@ Dies werde ich tun, indem ich das Problem aus der Perspektive eines Informatiker
 
 Durch die Bearbeitung dieses Themas hoffe ich, ein tieferes Verständnis für Microservices mit Python zu erlangen und gleichzeitig praktische Fähigkeiten in der Implementierung einer REST-API zu entwickeln."
 
-<img src="../img/genossenschaft_microservice.webp" alt="Microservice Genossenschaft" style="width:75%;"/> [^1]
+<img src="../img/genossenschaft_microservice.webp" alt="Microservice Genossenschaft" style="width:50%;"/> [^1]
+
+### Projekt Überblick
+
+```mermaid
+flowchart TB
+        subgraph Entwicklerumgebung["Development Environment"]
+            Python["Python"]
+            Docker["Docker"]
+            Git["Git"]
+            Github["Github"]
+        end
+        subgraph Microservices["Microservices"]
+            RESTAPI["REST-API"]
+        end
+        subgraph Github_Microservices["GitHub Microservices"]
+            GitRepository["Git Repository"]
+        end
+        subgraph Pushover
+            PushoverService
+        end
+
+    EndUser["End User"]
+
+    %% Define Relationships
+    GitRepository --> Microservices
+    RESTAPI --> Pushover
+    Pushover --> EndUser
+    Git <--> GitRepository
+    Microservices <--> EndUser 
+    Microservices <--> GenossenschaftWebsite
+```
 
 ### Quellen
 

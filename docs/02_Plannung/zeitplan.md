@@ -17,9 +17,6 @@ gantt
     dateFormat  DD.MM.YY
     axisFormat  %d.%m.%Y
 
-    section Produktionsphase
-    Produktions                  :done,        prod,         03.05.24, 1d
-
     section Einreichung
     Abgabe Einreichungsformular Semesterarbeit: active,      submit,       06.05.24, 5d
 
@@ -37,7 +34,6 @@ Um den detaillierten Zeitplan einzusehen, öffnen Sie bitte das Projektmanagemen
 
 | Datum                  | Aktivität                                            | Wer         | An       |
 |-----------------------|----------------------                                 | ------------|----      |
-|03.05.24               | Produktions                                           | Studierende |          |
 |06.05.24 - 10.05.24    | Abgabe Einreichungsformular Semesterarbeit            | Studierende | Expert   |
 |27.05.24               | Einzelbesprechung Zwischenstand                       | Studierende | Expert   |
 |05.07.24 - 08.07.24    | Abgabe der Arbeit / Schlusspräsentationen (online)    | Studierende |          |
