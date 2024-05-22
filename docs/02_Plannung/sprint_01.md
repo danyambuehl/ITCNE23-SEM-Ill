@@ -40,7 +40,7 @@ Folgende Tasks wurden im Sprint 01 geplant:
 
 ![Sprint Planning](../img/sprint_01.png)
 
-### Sprint Review [^2]
+### Sprint Review
 
 Folgende Tasks wurden im Sprint 01 bearbeitet:
 
