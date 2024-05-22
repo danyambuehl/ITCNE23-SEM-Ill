@@ -11,7 +11,7 @@ x. SWOT-Analyse -> Emmbeded Version plantuml
 x. Evaluierung von Lösungen Datenbank -> MySQL oder MongoDB
 8. Theoretische Lösungsansätze mit Begründung (System-Design)
 x SEUSAG Beziehungen, Einflussgrößen und Schnittstellen
-10. Risikoanalyse und -management
+x Risikoanalyse und -management
 11. Innovationsmanagement
 12. Nachhaltigkeitsaspekte
 13. Compliance und rechtliche Aspekte
@@ -24,10 +24,10 @@ x Aufgabenliste erstellen und Teilaufgaben definieren
 x Projektauftrag
 2. Theoretische Losungsansatze mit Begrundung (System-Design) -> Nutzwertanalyce -> WirschaftslichkeitsAnalyze
 x Risikoanalyse und -management -> Risikokatalog  -Risikomatrix -> Risikobewertung -
-4. Projektorganisation -> klare Rollenverteilung
-5. Projektbeschreibung
+x Projektorganisation -> klare Rollenverteilung
+x Projektbeschreibung
 6. Budgetplanung & Wirtschaftlichkeitsanalyse
-7. Ziele mit der SMART-Formel definieren
+x Ziele mit der SMART-Formel definieren
 
 ## Durchführung
 

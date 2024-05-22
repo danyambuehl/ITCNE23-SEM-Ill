@@ -2,7 +2,7 @@
 layout: default             #layout: minimal
 title: Smart Ziele
 nav_order: 5
-parent: Start
+parent: Plannung
 # Referenz nachtragen
 # Weitere vorteile einer REST-API
 ---
