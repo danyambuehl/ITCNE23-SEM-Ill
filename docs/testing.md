@@ -1,9 +1,3 @@
----
-layout: default
-#layout: minimal
-title: Testing
-nav_order: 4
----
 
 ## Testing und Probleme
 

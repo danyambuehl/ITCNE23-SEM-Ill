@@ -2,7 +2,7 @@
 layout: default
 title: Risikoanalyse
 parent: Planung
-nav_order: 4
+nav_order: 5
 ---
 
 ## Risikoanalyse [^1]

@@ -2,7 +2,7 @@
 layout: default
 title: Git Branching
 parent: Planung
-nav_order: 5   
+nav_order: 7   
 ---
 
 ## Warum ein Git Branching-Konzept verwenden? [^1]

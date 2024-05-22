@@ -2,7 +2,7 @@
 layout: default
 title: Evaluation
 parent: Planung
-nav_order: 8
+nav_order: 3
 # Auswertung machen wir erst am Schluss
 ---
 

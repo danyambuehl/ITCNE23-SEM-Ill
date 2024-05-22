@@ -2,7 +2,7 @@
 layout: default
 title: SUSAG
 parent: Planung
-nav_order: 3
+nav_order: 4
 ---
 
 ## SUSAG [^1]
