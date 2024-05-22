@@ -6,6 +6,8 @@ nav_order: 7
 ---
 ## SWOT-Analyse
 
+<img src="../img/swot.webp" alt="SWOT Analyse" style="width:75%;"/> [^2]
+
 ### Stärken
 
 1. **Nutzung moderner Technologien:**
