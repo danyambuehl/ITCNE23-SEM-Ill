@@ -23,7 +23,7 @@ x Aufgabenliste erstellen und Teilaufgaben definieren
 
 x Projektauftrag
 2. Theoretische Losungsansatze mit Begrundung (System-Design) -> Nutzwertanalyce -> WirschaftslichkeitsAnalyze
-3. Risikoanalyse und -management -> Risikokatalog  -Risikomatrix -> Risikobewertung -
+x Risikoanalyse und -management -> Risikokatalog  -Risikomatrix -> Risikobewertung -
 4. Projektorganisation -> klare Rollenverteilung
 5. Projektbeschreibung
 6. Budgetplanung & Wirtschaftlichkeitsanalyse

@@ -33,7 +33,7 @@ Die Risikomatrix ist ein Instrument zur Bewertung und Visualisierung von Risiken
 
 ![Risikomatrix](../img/risikomatrix_vor.png)
 
-### Maßnahmen zur Risikominimierung [^3]
+### Massnahmen zur Risikominimierung [^3]
 
 | ID | Risiko | Massnahmen | Wahrscheinlichkeit | Auswirkung |
 |--------|--------|--------------|--------------------|------------|
@@ -49,13 +49,37 @@ Die Risikomatrix ist ein Instrument zur Bewertung und Visualisierung von Risiken
 
 ### Risikomatrix nach Massnahmen
 
-Nach der Implementierung von Maßnahmen zur Risikominimierung werden die Risiken erneut bewertet und in der Risikomatrix neu positioniert. Ziel ist es, die Eintrittswahrscheinlichkeit und die Auswirkung der Risiken zu reduzieren und das Risikopotenzial des Projekts zu minimieren.
+Nach der Implementierung von Massnahmen zur Risikominimierung werden die Risiken erneut bewertet und in der Risikomatrix neu positioniert. Ziel ist es, die Eintrittswahrscheinlichkeit und die Auswirkung der Risiken zu reduzieren und das Risikopotenzial des Projekts zu minimieren.
 
 ![Risikomatrix](../img/risikomatrix_nach.png)
 
+### Fortschrittsverfolgung der Massnahmen
+
+Die Massnahmen werden in Github als Issues erfasst und mit den entsprechenden Risiken verknüpft. Der Status der Massnahmen wird regelmässig überprüft und aktualisiert, um den Fortschritt zu dokumentieren und sicherzustellen, dass die Risiken kontrolliert und minimiert werden.
+
+### Risikomanagement Prozess
+
+```mermaid
+graph TD;
+    A((Start)) --> B[Risiken identifizieren];
+    B --> C[Risikobewertung];
+    C --> D[Wahrscheinlichkeit Analyse];
+    C --> E[Auswirkungen Analyse];
+    E --> F;
+    D --> F[Massnahmen entwickeln];
+    F --> G[Überwachung und Kontrolle];
+    G --> H{Tragbar?};
+    H -- NO --> A;
+    H -- YES --> I[Issue in Github erstellen];
+    I --> J((Ende));
+```
+
+### Fazit
+
+Die Risikoanalyse und das Risikomanagement sind wichtige Instrumente zur Identifikation, Bewertung und Minimierung von Risiken in einem Projekt. Durch die systematische Analyse und Bewertung von Risiken können potenzielle Probleme frühzeitig erkannt und Massnahmen zur Risikominimierung definiert werden. Die regelmässige Überwachung und Kontrolle der Risiken ermöglicht es, das Risikopotenzial des Projekts zu minimieren und die Wahrscheinlichkeit eines erfolgreichen Projektabschlusses zu erhöhen.
+
 ### Referenzen
 
-[^1]: Kompetenz Risikomanagement [Retrieved from](https://gitlab.com/ch-tbz-wb/Stud/prj/-/tree/main/2_Unterrichtsressourcen/F_RisikoManagement )
+[^1]: Kompetenz Risikomanagement [Retrieved from](https://gitlab.com/ch-tbz-wb/Stud/prj/-/tree/main/2_Unterrichtsressourcen/F_RisikoManagement)
 [^2]: Risikoanalyse How to [Retrieved from](https://www.theprojectgroup.com/blog/risikomanagement-im-projektmanagement/#:~:text=Wann%20macht%20man%20eine%20Risikoanalyse,im%20gesamten%20Projektverlauf%20wiederholt%20wird.)
-[^3]: Risikobewertung [Retrieved from](https://regina-stoiber.com/2019/04/28/risikoanalyse-durchfuehren-mit-muster-vorlage-und-beispiel/
-)
+[^3]: Risikobewertung [Retrieved from](https://regina-stoiber.com/2019/04/28/risikoanalyse-durchfuehren-mit-muster-vorlage-und-beispiel/)
