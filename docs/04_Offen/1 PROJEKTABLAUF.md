@@ -16,20 +16,20 @@ x inklusive Projektumfeld -> Stakeholderanalyse
 5. Evaluation von Losungen -> Erhebungstechnik -> Umfrage erstellen -> Umfrage Auswerten
 x. SWOT-Analyse -> Emmbeded Version plantuml
 x. Evaluierung von Lösungen Datenbank -> MySQL oder MongoDB
-8. Theoretische Lösungsansätze mit Begründung (System-Design)
+x Theoretische Lösungsansätze mit Begründung (System-Design)
 x SEUSAG Beziehungen, Einflussgrößen und Schnittstellen
 x Risikoanalyse und -management
 11. Innovationsmanagement
 12. Nachhaltigkeitsaspekte
 13. Compliance und rechtliche Aspekte
-14. Projektmeilensteine festlegen
+x Projektmeilensteine festlegen
 x Dauer der Aufgaben abschätzen - Zeitplan erstellen
 x Aufgabenliste erstellen und Teilaufgaben definieren
 
 ## Planung
 
 x Projektauftrag
-2. Theoretische Losungsansatze mit Begrundung (System-Design) -> Nutzwertanalyce -> WirschaftslichkeitsAnalyze
+x Theoretische Losungsansatze mit Begrundung (System-Design) -> Nutzwertanalyce -> WirschaftslichkeitsAnalyze
 x Risikoanalyse und -management -> Risikokatalog  -Risikomatrix -> Risikobewertung -
 x Projektorganisation -> klare Rollenverteilung
 x Projektbeschreibung

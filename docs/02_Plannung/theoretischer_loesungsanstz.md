@@ -45,7 +45,7 @@ Die Plattform wird in einem Git-Repository verwaltet, um die Zusammenarbeit zu e
 
 Als Monitoring-Tool wird flask_monitoringdashboard verwendet, da es einfach zu bedienen ist und eine Vielzahl von Funktionen bietet, die die Überwachung und Wartung erleichtern.
 
-## Design
+## Service Design
 
 ```mermaid
 flowchart TB
