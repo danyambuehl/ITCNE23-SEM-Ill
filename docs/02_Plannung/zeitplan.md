@@ -21,7 +21,8 @@ gantt
     Abgabe Einreichungsformular Semesterarbeit: active,      submit,       06.05.24, 5d
 
     section Zwischenbesprechung
-    Einzelbesprechung Zwischenstand           : milestone,   meet,         27.05.24, 1d
+    Einzelbesprechung Zwischenstand Projekt           : milestone,   meet,         27.05.24, 1d
+    Einzelbesprechung Zwischenstand Microservie           : milestone,   meet,         17.06.24, 1d
 
     section Abschlussphase
     Abgabe der Arbeit / Schlusspräsentationen (online) : active, present,  05.07.24, 4d
