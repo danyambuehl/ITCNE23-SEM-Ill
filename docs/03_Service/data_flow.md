@@ -13,9 +13,9 @@ Der von mir implementierte Lösungsansatz basiert auf künstlicher Intelligenz (
 
 Auf diese Weise werden Kosten für KI-Anfragen vermieden, da die KI bereits identifiziert hat, wie man ein neues Apartment eigenständig identifizieren kann.
 
-## Squenzdiagramm
+## Squenz Diagramm
 
-Dieses Sequenzdiagramm zeigt den Ablauf der Überwachungsfunktion.
+Dieses Sequenz Diagramm zeigt den Ablauf der Überwachungsfunktion.
 
 ```mermaid
 sequenceDiagram

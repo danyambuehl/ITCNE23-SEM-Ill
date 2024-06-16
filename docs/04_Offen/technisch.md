@@ -13,3 +13,7 @@ While you can provide an api_key keyword argument, we recommend using python-dot
 
 Why does logging somejust work after i build the container again?
 
+
+
+Monitoring Database could not be found 
+Testing failes because of the sheduler
