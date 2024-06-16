@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Service
-nav_order: 4
+title: Planung
+nav_order: 3
 has_children: true      # Because its a parent page
 ---
 
-## Service
+## Planung Start

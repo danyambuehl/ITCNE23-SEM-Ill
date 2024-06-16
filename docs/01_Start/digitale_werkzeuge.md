@@ -30,15 +30,28 @@ Es wird Jekyll site und eine Github Pipeline verwendet um die Dokumentation des 
 
 Jekyll ist ein statischer Website-Generator, der es Benutzern ermöglicht, Markdown-Dateien in statische Websites zu konvertieren.
 
-### <img src="../img/mermaid-logo.svg" width="64"> Mermaid [^4]
+### <img src="../img/mermaid-logo.svg" width="64"> Mermaid [^5]
 
 Mermaid ist ein Diagramm-Tool, das es Benutzern ermöglicht, Diagramme direkt in Markdown-Dateien zu erstellen.
 
-### <img src="../img/python_logo.png" width="64"> Python [^5]
+### <img src="../img/python_logo.png" width="64"> Python [^6]
 
 Python ist eine meistverwendeten, interpretierte Programmiersprache, die für ihre Vielseitigkeit, Lesbarkeit und umfassende Standardbibliothek bekannt ist.
 Lässt sich zudem auf praktisch allen gängigen Betriebssystemen verwenden.
-Wird an verschiedenen orten des Projekt verwendet um die Funktionalität zu erweitern. Um z.b PRTG und Veeam Backup and Replication anzusteuern.
+Wird an verschiedenen orten des Projekt verwendet um die Funktionalität zu erweitern.
+
+### <img src="../img/pushover.png" width="64"> Pushover [^7]
+
+Pushover ist ein Dienst, der es Benutzern ermöglicht, Benachrichtigungen auf ihren mobilen Geräten zu empfangen.
+
+### <img src="../img/openai.png" width="64"> OpenAI [^8]
+
+OpenAI ist ein Unternehmen, das sich auf die Entwicklung von künstlicher Intelligenz spezialisiert hat.
+Wird verwendet um die ChatGPT-API zu verwenden.
+
+### <img src="../img/noip.png" width="64"> NoIP [^8]
+
+NoIP ist ein Unternehmen, das sich auf dynamische DNS spezialisiert hat.
 
 ## Quellen und Referenzen
 
@@ -47,3 +60,7 @@ Wird an verschiedenen orten des Projekt verwendet um die Funktionalität zu erwe
 [^3]:Github Actions [Retrieved from](https://github.com/features/actions)
 [^4]:Quickstart Jekyll [Retrieved from](https://jekyllrb.com/docs/)
 [^5]:Mermaid Examples [Retrieved from](https://mermaid.js.org/syntax/examples.html)
+[^6]:Python [Retrieved from](https://www.python.org/)
+[^7]:Pushover [Retrieved from](https://pushover.net/)
+[^8]:OpenAI [Retrieved from](https://openai.com/)
+[^9]:NoIP [Retrieved from](https://www.noip.com/)
