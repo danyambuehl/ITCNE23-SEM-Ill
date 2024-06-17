@@ -69,6 +69,8 @@ Da man sich noch so sehr planen kann jedoch immer wieder auf unerwartete Problem
 Ich bin jedoch sehr zufrieden mit dem Resultat und freue mich auf die nächsten Schritte.
 Speziell die Implementierung der KI mit der Idee ein selbstlernende Funktion einzubauen hat mir sehr viel Spass gemacht.
 
+Es gab viel Ausprobieren und Fehlerbehebung in diesem Sprint. Ich musste Funktionen mehrmals neu schreiben, um sie zum Laufen zu bringen. Ich habe auch mehr Bibliotheken installiert, als ich geplant hatte. Im nächsten Sprint werde ich versuchen, es einfacher zu halten und mehr zu testen.
+
 **Keep** Was soll beibehalten werden?
 
 - Probieren und Fehler machen

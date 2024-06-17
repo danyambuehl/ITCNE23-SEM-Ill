@@ -12,6 +12,7 @@ entity "Companies" as companies {
   status: varchar(50)
   created_at: datetime
   updated_at: datetime
+  class_name: varchar(255)
 }
 
 entity "Apartments" as apartments {

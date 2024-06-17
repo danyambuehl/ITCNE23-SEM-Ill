@@ -21,6 +21,7 @@ component "Git Pipeline"
 component "noip"
 component "Cloud Provider"
 component "Pushover"
+component "OpenAI"
 component "Genossenschaften"
 
 [MySQL] <-right-> [REST-API] : S1
@@ -34,5 +35,6 @@ component "Genossenschaften"
 [Genossenschaften] <-down- [Systemgrenze] : S7
 [noip] <-down-> [Cloud Provider]: S8
 [noip] <-up-> [Git Pipeline]: S9
+[OpenAI] -up-> [REST-API] : S10
 
 @enduml

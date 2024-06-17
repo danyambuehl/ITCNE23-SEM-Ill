@@ -26,6 +26,7 @@ Die Systemgrenze definiert den Umfang des Systems und grenzt es von der Umwelt a
 | S7 | Verbindung zwischen dem System zur und der Genossenschaften Wohnungsdaten. |
 | S8 | NoIP Dynamic Update Client gets new Public IP Address to link to DDNS Name |
 | S9 | Git Variable has a Dynamic Host Name from NoIP |
+| S10 | REST API Abfragen zu ChatGPT API |
 
 ### Einflussgrössen festhalten
 
@@ -114,6 +115,11 @@ flowchart TB
             direction TB
             PushoverService
         end
+        %% Define OpenAI
+        subgraph OpenAI
+            direction TB
+            ChatGPTAPI["ChatGPT API"]
+        end
         %% Define noip Block
         subgraph noip
             direction TB
@@ -139,6 +145,7 @@ flowchart TB
     RESTAPI -->|sends notifications to| Pushover
     Pushover -->|sends Notification| EndUser
     Git <--> |push/pull| GitRepository
+    RESTAPI <--> |calls| ChatGPTAPI
 
     %% Define Styles
     style Entwicklerumgebung fill:#66cc66,stroke:#339933,stroke-width:4px
@@ -147,6 +154,7 @@ flowchart TB
     style Infrastructure fill:fill:#99e699,stroke:#339933,stroke-width:4px
     style Teilsysteme fill:#66cc66,stroke:#339933,stroke-width:4px
     style Pushover fill:#66cc66,stroke:#339933,stroke-width:4px
+    style OpenAI fill:#66cc66,stroke:#339933,stroke-width:4px
     style noip fill:#66cc66,stroke:#339933,stroke-width:4px
 ```
 

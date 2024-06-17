@@ -27,12 +27,16 @@ flowchart TB
         end
         subgraph Microservices["Microservices"]
             RESTAPI["REST-API"]
+            DB["Datenbank"]
         end
         subgraph Github_Microservices["GitHub Microservices"]
             GitRepository["Git Repository"]
         end
         subgraph Pushover
             PushoverService
+        end
+        subgraph OpenAI
+            ChatGPT["ChatGPTAI"]
         end
 
     EndUser["End User"]
@@ -41,9 +45,11 @@ flowchart TB
     GitRepository --> Microservices
     RESTAPI --> Pushover
     Pushover --> EndUser
+    RESTAPI <--> DB
     Git <--> GitRepository
     Microservices <--> EndUser 
     Microservices <--> GenossenschaftWebsite
+    ChatGPT <--> Microservices
 ```
 
 ### Quellen

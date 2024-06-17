@@ -60,17 +60,22 @@ flowchart TB
         subgraph Infrastructure["AWS Infrastructure (EC2)"]
             direction TB
         %% Define Microservices Block
-        subgraph Microservices["Microservice"]
+        subgraph Microservices["Microservices"]
             direction TB
+            subgraph sem-search-prod-api
             FlaskFrontend["Flask Frontend"]
             Monitoring["Monitoring"]
             RESTAPI["REST-API"]
+            end
+
+            subgraph sem-search-prod-db
             Datenbank["Datenbank"]
+            end
 
         end
         end
-        %% Define Github Infrastructure Block
-        subgraph Github_Infrastructure["Github Infrastructure"]
+        %% Define GitLab Infrastructure Block
+        subgraph GitLab_Infrastructure["GitLab Infrastructure"]
             direction TB
             GitRepository["Git Repository"]
             GitVariables["Git Variables"]
@@ -82,7 +87,11 @@ flowchart TB
             direction TB
             PushoverService
         end
-
+        %% Define OpenAI Block
+        subgraph OpenAi
+            direction TB
+            ChatGptAPI
+        end
 
     EndUser["Mobile Phone"]
 
@@ -97,14 +106,16 @@ flowchart TB
     Registry -->|Image gets deployed on | Infrastructure
     RESTAPI -->|sends notifications to| Pushover
     Pushover -->|sends Notification| EndUser
+    RESTAPI <-->|queries| OpenAi
     Git <--> |push/pull| GitRepository
 
     %% Define Styles
     style Entwicklerumgebung fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style Microservices fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
-    style Github_Infrastructure fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
+    style GitLab_Infrastructure fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style Infrastructure fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style Pushover fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
+    style OpenAi fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
 ```
 
 ## Begründung

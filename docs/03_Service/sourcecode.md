@@ -9,7 +9,7 @@ nav_order: 9
 
 Der Sourcecode des Projekts ist auf GitLab verfügbar. Der Code ist in Python geschrieben und verwendet die Flask-Bibliothek für die Webanwendung. Die Überwachungsfunktion basiert auf künstlicher Intelligenz und verwendet die ChatGPT-API von OpenAI.
 
-[GitHub](https://gitlab.com/ambuehld/sem_search_bau){: .btn }
+[GitLab](https://gitlab.com/ambuehld/sem_search_bau){: .btn }
 
 MIT License
 
