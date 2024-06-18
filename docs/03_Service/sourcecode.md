@@ -11,6 +11,14 @@ Der Sourcecode des Projekts ist auf GitLab verfügbar. Der Code ist in Python ge
 
 [GitLab](https://gitlab.com/ambuehld/sem_search_bau){: .btn }
 
+## Service
+
+Der Service läuft momentan auf einem virtuellen Server bei AWS und wird mit Docker-Containern bereitgestellt. 
+
+[Service](http://semsearch-bau.ddns.net/){: .btn }
+
+## Lizenz
+
 MIT License
 
 Copyright (c) [2024] [Dany Ambühl]
