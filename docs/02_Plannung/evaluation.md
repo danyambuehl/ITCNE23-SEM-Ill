@@ -41,7 +41,7 @@ Die Erkenntnisse aus der Umfrage dienen als Grundlage für die Weiterentwicklung
 
 Die Daten sind in Tabellenform in einer Excel-Datei verfügbar und können für die weitere Analyse verwendet werden.
 
-[Ergebniss Umfrage Tabellenform](Wohnen_Baugenossenschaft_Umfrage.xlsx){: .btn }
+[Ergebniss Umfrage Tabellenform](../../Wohnen_Baugenossenschaft_Umfrage.xlsx){: .btn }
 
 Hier möchte ich nur kurz auf eine Grafische Darstellung der Ergebnisse eingehen.
 
