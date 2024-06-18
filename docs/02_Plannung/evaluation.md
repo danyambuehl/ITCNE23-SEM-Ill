@@ -22,7 +22,7 @@ Dies schliesst eine breite demografische Gruppe ein, um vielfältige Meinungen u
 
 ### Stichprobengrösse
 
-Um repräsentative Ergebnisse zu erhalten, wird eine Stichprobengrösse von mindestens 20 Teilnehmern angestrebt. 
+Um repräsentative Ergebnisse zu erhalten, wird eine Stichprobengrösse von mindestens 20 Teilnehmern angestrebt.
 Diese Grösse ermöglicht eine zuverlässige Analyse trotz eines Zeitlich sehr limitiertem Rahmen und hilft, aussagekräftige Rückschlüsse auf die Gesamtpopulation zu ziehen.
 
 ## Umfrage [^2]
@@ -38,6 +38,30 @@ Die Umfrage ist sehr kurz gehalten, um die Teilnehmer nicht zu überfordern. Die
 
 Die Auswertung der Umfrage erfolgt nach Abschluss der Befragung. Die Ergebnisse werden analysiert und in einem Bericht zusammengefasst.
 Die Erkenntnisse aus der Umfrage dienen als Grundlage für die Weiterentwicklung der Plattform zur Wohnungssuche.
+
+Die Daten sind in Tabellenform in einer Excel-Datei verfügbar und können für die weitere Analyse verwendet werden.
+
+[Ergebniss Umfrage Tabellenform](Wohnen_Baugenossenschaft_Umfrage.xlsx){: .btn }
+
+Hier möchte ich nur kurz auf eine Grafische Darstellung der Ergebnisse eingehen.
+
+[Ergebniss Umfrage Grafisch](https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=v02nT8YI0fnO89YYO0KQbMzBfBndRPaK&id=xf0z91USjU23kyvHrKDyFD-TxWCORd5DpF5gn6qmMhNUQzZFREpWSDMzSkRFRU1FS1Y0OU8wQjMyRC4u){: .btn }
+
+## Fazit der Umfrage
+
+Die Umfrage hat die Anforderungen und Bedürfnisse der Zielgruppe erfasst und liefert wichtige Erkenntnisse für die Weiterentwicklung der Plattform zur Wohnungssuche.
+Die Ergebnisse der Umfrage werden in die Weiterentwicklung der Plattform einbezogen und dienen als Grundlage für die Implementierung neuer Funktionen und Verbesserungen.
+
+### Implementierung neuer Funktionen
+
+Durch diese Auswertung kann ich die Bedürfnisse der Nutzer besser verstehen und die Plattform entsprechend anpassen. So das der Fokus des nächsten Issues auf eine Filterfunktion gelegt wird.
+Ein weiterer Punkt sich von der Konkurenz abzuheben ist die Implementierung von Informationen zur Bewerbungskriterien der Genossenschaften.
+![Umfrage](../img/umfrage1.png)
+
+## Fokus Funktionalität und Datenschutz
+
+Die Umfrage hat gezeigt, dass die Benutzerfreundlichkeit und die Funktionalität der Datenschutz wichtige Anforderungen sind.
+![Umfrage](../img/umfrage2.png)
 
 ### Quellen
 

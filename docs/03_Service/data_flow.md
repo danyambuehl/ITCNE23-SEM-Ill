@@ -2,7 +2,7 @@
 layout: default
 title: Überwachungsfunktion
 parent: Service
-nav_order: 9
+nav_order: 2
 ---
 
 ## Überwachungsfunktion
