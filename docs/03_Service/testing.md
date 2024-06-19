@@ -1,6 +1,6 @@
 ---
 layout: default
-title: testing
+title: Testing
 parent: Service
 nav_order: 4
 ---
@@ -22,8 +22,31 @@ Hier werden einige Manuelle Tests durchgeführt um die Funktionen zu überprüfe
 | `find html class` | HTML Class Name finden mit ChatGPT | ask_chatgpt_about_html_class: HTML Tag: <div>, Full Class Name: grid-item wohnung11  | grid-item wohnung22 | [Screenshot](../img/testing/chat_gpt_response_html.png) |
 | `update company record` | Update Company Record class_name | grid-item wohnung11  | erfolgreich | [Screenshot](../img/testing/chat_gpt_response_html_updatet.png) |
 
+
 ## Automatisches Testing
 
 Hier werden einige Automatische Tests durchgeführt um die Funktionen zu überprüfen.
 
-![Testing](../img/testing.png)
+### Pipline SAST Testing
+
+Ich habe eine einfache Pipeline erstellt, die die Sicherheit des Codes überprüft.
+
+![GitLab Pipeline](../img/testing/pipline_sast1.png)
+
+Bei der Überprüfung des Codes wurden eine kleine Sicherheitslücken gefunden.
+
+[Service](../img/testing/gl-sast-report.json){: .btn }
+
+Folgenden Fehler wurden gefunden:
+
+```json
+"description":"The application was found using the `requests` module without configuring a timeout value for\nconnections"
+```
+
+Nachdem ich die Fehler behoben habe, wurde die Pipeline erfolgreich durchgeführt.
+
+[Service](../img/testing/gl-sast-report2.json){: .btn }
+
+### Pytest Testing
+
+Ich habe einige Pytest-Tests geschrieben, um die Funktionen zu überprüfen.
