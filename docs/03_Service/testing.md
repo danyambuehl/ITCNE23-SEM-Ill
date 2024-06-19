@@ -50,3 +50,59 @@ Nachdem ich die Fehler behoben habe, wurde die Pipeline erfolgreich durchgeführ
 ### Pytest Testing
 
 Ich habe einige Pytest-Tests geschrieben, um die Funktionen zu überprüfen.
+
+![Pytest](../img/testing/py_testingpng.png)
+
+### Pytest Coverage Testing
+
+**app/apartments/routes.py**
+
+Das Coverage für routes.py in Apartments ist bei 0%.
+
+Da die Apartments routes soweit nur als code geschrieben wurden jedoch noch nicht verwendet wird und die vollständige Implementierung für den nächsten Sprint geplant ist.
+
+```python
+# app/__init__.py
+    # Register blueprints here
+    from app.companies import bp as companies_bp
+    app.register_blueprint(companies_bp, url_prefix='/companies')
+
+    # from app.apartments import bp as apartments_bp
+    # app.register_blueprint(apartments_bp, url_prefix='/apartments')
+
+    from app.users import bp as users_bp
+    app.register_blueprint(users_bp, url_prefix='/users')
+```
+
+**openai.py**
+
+Es hat viele Exception handling tests die ich nicht explizit getestet habe da es zu viele sind.
+
+Die Coverage für openai.py ist 58%. Da die ganzen exceptions nicht getestet wurden.
+
+```python
+def ask_chatgpt_about_apartment(html_content):
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant skilled in parsing HTML content."},
+                {"role": "user", "content": f"Check if there are new apartments listed in the following HTML content:\n{html_content} and respond in the format 'yes apartment found or no apartment found'."}
+            ],
+            max_tokens=500,
+            timeout=60
+        )
+        logger.info(f"ChatGPT response for ask_chatgpt_about_apartment: {response.choices[0].message.content.strip()}")
+        return response.choices[0].message.content.strip()
+    except openai.APIConnectionError as e:
+        logger.error("The server could not be reached")
+        logger.error(e.__cause__)
+    except openai.RateLimitError as e:
+        logger.error("A 429 (RateLimitError) status code was received; we should back off a bit.")
+        time.sleep(time_to_wait)  # wait before retrying
+    except openai.APIStatusError as e:
+        logger.error("Another non-200-range status code was received")
+        logger.error(e.status_code)
+        logger.error(e.response)
+```
+
