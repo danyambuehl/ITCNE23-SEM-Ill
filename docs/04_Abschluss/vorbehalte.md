@@ -35,7 +35,7 @@ Die erstellte self-learning Funktion reduziert die Kosten für ChatGPT jedoch is
 ### 5. Kompatibilität Benachrichtigungssystem
 
 **Vorbehalt:**
-Die Benachrichtigungsfunktion funktioniert einwandfrei jedoch wurde bisher nur mein eigenes Handy getestet.
+Die Benachrichtigungsfunktion funktioniert einwandfrei jedoch wurde bisher nur zwei eigenes Handy's getestet.
 
 **Entkräftung:**
 Das definierte Ziel ist klar erreicht worden und in einem nächsten Schritt wird das anbinden von weiteren teilnehmern getestet.
