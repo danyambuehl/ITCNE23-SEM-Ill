@@ -27,7 +27,6 @@ Der Fokus lag auf der Funktionalität und das Frontend wurde nur rudimentär ers
 ### 4. Kosten
 
 **Vorbehalt:**
-
 Die Implementierung und Wartung der Lösung könnten teurer sein als ursprünglich geplant.
 
 **Entkräftung:**
