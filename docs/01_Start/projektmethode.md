@@ -49,8 +49,8 @@ Das Sprint Review findet jeweils am Ende des Sprints statt. In diesem Meeting wi
 Die Sprint Retrospektive ist ein Medium, in welchem sich das Scrum Team reflektieren kann. Jedes Teammitglied sollte etwas dazu beitragen. Kernpunkte in diesem Meeting sind:
 
 - **Keep** Was soll beibehalten werden?
-- **Drop** Mit was sollen wir aufhören?
-- **Try** Was sollen wir im nächsten Sprint ausprobieren?
+- **Drop** Mit was soll ich aufhören?
+- **Try** Was soll ich im nächsten Sprint ausprobieren?
 
 Das Ziel ist, kontinuierlich Verbesserungen im Prozess und in der Zusammenarbeit zu identifizieren und umzusetzen.
 
@@ -61,7 +61,7 @@ Diese Phasen unterstützen den kontinuierlichen Fortschritt und die Qualitätssi
 | Aktivität                | Beschreibung                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------------|
 | Sprint Planning          | Tasks vom Product Backlog ins Sprint Backlog verschieben                                          |
-| Daily Scrum              | Regelmäßiges kurzes Meeting zur Statusüberprüfung<br>Beantwortung der Fragen: Was wurde gemacht, was sind die Probleme, was wird gemacht |
+| Daily Scrum              | Regelmässiges kurzes Meeting zur Statusüberprüfung<br>Beantwortung der Fragen: Was wurde gemacht, was sind die Probleme, was wird gemacht |
 | Sprint Review            | Präsentation des Sprint-Mehrwerts an die Stakeholder<br>Überprüfung der vollständigen Bearbeitung aller Tasks                     |
 | Sprint Retrospektive     | Reflexion über den Sprint<br>Identifikation von Verbesserungen                                   |
 

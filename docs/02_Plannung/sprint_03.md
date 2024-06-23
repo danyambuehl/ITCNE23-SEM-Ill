@@ -62,12 +62,11 @@ Leider konnte ich die Umfrageergebnisse nicht in die ersten drei Sprints integri
 
 - Error Handling für die Funktionen.
 - Timeouts für die Anfragen.
-- 
 
-**Drop** Mit was sollen wir aufhören?
+**Drop** Mit was soll ich aufhören?
 
-- 
+- Dockerfiles zu erstellen, die System Packages benötigen.
 
-**Try** Was sollen wir im nächsten Sprint ausprobieren?
+**Try** Was soll ich im nächsten Sprint ausprobieren?
 
 - Umfrageergebnisse in den nächsten Sprints zu integrieren.

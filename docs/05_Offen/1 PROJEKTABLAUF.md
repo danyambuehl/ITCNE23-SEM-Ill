@@ -17,7 +17,7 @@ x inklusive Projektumfeld -> Stakeholderanalyse
 x. SWOT-Analyse -> Emmbeded Version plantuml
 x. Evaluierung von Lösungen Datenbank -> MySQL oder MongoDB
 x Theoretische Lösungsansätze mit Begründung (System-Design)
-x SEUSAG Beziehungen, Einflussgrößen und Schnittstellen
+x SEUSAG Beziehungen, Einflussgrössen und Schnittstellen
 x Risikoanalyse und -management
 11. Innovationsmanagement
 12. Nachhaltigkeitsaspekte

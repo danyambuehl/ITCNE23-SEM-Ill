@@ -3,7 +3,6 @@ layout: default
 title: Evaluation
 parent: Planung
 nav_order: 3
-# Auswertung machen wir erst am Schluss
 ---
 
 ## Evaluation [^1]
@@ -29,12 +28,12 @@ Diese Grösse ermöglicht eine zuverlässige Analyse trotz eines Zeitlich sehr l
 
 Die Umfrage ist ein wichtiges Instrument zur Erhebung von Daten und Informationen. Sie ermöglicht es, die Meinungen, Einstellungen und Bedürfnisse der Befragten zu erfassen und auszuwerten.
 
-[Zur Umfrage](https://forms.office.com/e/PR0WmSXgww?origin=lprLink){: .btn }
+[Zur Umfrage](https://forms.office.com/e/PR0WmSXgww?origin=lprLink){: .btn } [^5]
 
 Die Fragen der Umfrage sind so formuliert, dass sie klar und verständlich sind. Sie sollten neutral und unvoreingenommen sein, um eine objektive Beurteilung zu ermöglichen.
 Die Umfrage ist sehr kurz gehalten, um die Teilnehmer nicht zu überfordern. Die Fragen sind auf das Wesentliche reduziert und zielen darauf ab, die wichtigsten Informationen zu erhalten.
 
-## Auswertung
+## Auswertung [^3] [^4]
 
 Die Auswertung der Umfrage erfolgt nach Abschluss der Befragung. Die Ergebnisse werden analysiert und in einem Bericht zusammengefasst.
 Die Erkenntnisse aus der Umfrage dienen als Grundlage für die Weiterentwicklung der Plattform zur Wohnungssuche.
@@ -55,10 +54,10 @@ Die Ergebnisse der Umfrage werden in die Weiterentwicklung der Plattform einbezo
 ### Implementierung neuer Funktionen
 
 Durch diese Auswertung kann ich die Bedürfnisse der Nutzer besser verstehen und die Plattform entsprechend anpassen. So das der Fokus des nächsten Issues auf eine Filterfunktion gelegt wird.
-Ein weiterer Punkt sich von der Konkurenz abzuheben ist die Implementierung von Informationen zur Bewerbungskriterien der Genossenschaften.
+Ein weiterer Punkt sich von der Konkurrenz abzuheben ist die Implementierung von Informationen zur Bewerbungskriterien der Genossenschaften.
 ![Umfrage](../img/umfrage1.png)
 
-## Fokus Funktionalität und Datenschutz
+### Fokus Funktionalität und Datenschutz
 
 Die Umfrage hat gezeigt, dass die Benutzerfreundlichkeit und die Funktionalität der Datenschutz wichtige Anforderungen sind.
 ![Umfrage](../img/umfrage2.png)
@@ -67,3 +66,6 @@ Die Umfrage hat gezeigt, dass die Benutzerfreundlichkeit und die Funktionalität
 
 [^1]: Erhebungstechniken [Retrieved from](https://www.orghandbuch.de/Webs/OHB/DE/Organisationshandbuch/6_MethodenTechniken/61_Erhebungstechniken/613_Fragebogen/fragebogen-node.html)
 [^2]: Best Practice Fragen [Retrieved from](https://de.surveymonkey.com/learn/survey-best-practices/online-questionnaires/)
+[^3]: Umfrage Auswertung [Retrieved from](https://www.umfrageonline.com/de/umfrage-auswerten)
+[^4]: Umfrage Analyse [Retrieved from](https://www.umfrageonline.com/de/umfrage-analyse)
+[^5]: Forms Office [Retrieved from](https://www.microsoft.com/de-de/microsoft-365/business/forms)

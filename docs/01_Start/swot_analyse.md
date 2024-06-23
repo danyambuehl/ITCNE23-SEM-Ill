@@ -63,7 +63,7 @@ nav_order: 8
 
 ## Strategien zur Nutzung der SWOT-Analyse
 
-| Kategorie            | Maßnahmen                                                                                                  |
+| Kategorie            | Massnahmen                                                                                                  |
 |----------------------|------------------------------------------------------------------------------------------------------------|
 | **Stärken nutzen**   | - Implementierung der modernen Technologien, um eine flexible und skalierbare Plattform zu gewährleisten.<br>- Die mobile Verfügbarkeit und Flexibilität hervorheben.                 |
 | **Schwächen minimieren** | - Enge Zusammenarbeit mit Fachexperten zur Bewältigung technischer Herausforderungen.<br>- Einsatz von bereits vorhandenen Technologien, die verschiedene Smartphone-Betriebssysteme unterstützen. |

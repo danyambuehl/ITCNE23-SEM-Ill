@@ -50,7 +50,7 @@ Folgende Tasks wurden im Sprint 01 bearbeitet:
 
 Während dieses Sprints wurde ein erheblicher Aufwand betrieben, um alle projektspezifischen Dokumente im Bereich Projektmanagement zu erstellen. Dieser Aufwand hat sich als sehr zeitaufwändig herausgestellt da viele Dokumente von Grund auf neu erstellt werden mussten.
 
-Dies wurde bewusst so gehandhabt, basierend auf den Schlussfolgerungen der letzten Semesterarbeit. Der Bewertungsraster legt großen Wert auf Projektmanagement, wodurch nur wenige Punkte von den Fachexperten vergeben werden konnten. Ich hoffe, den Aufwand bei zukünftigen Arbeiten reduzieren zu können, da dann bereits Dokumentvorlagen vorhanden sind und in Zukunft wieder mehr Zeit zu haben, um mich auf das Wesentliche zu konzentrieren, nämlich die Umsetzung.
+Dies wurde bewusst so gehandhabt, basierend auf den Schlussfolgerungen der letzten Semesterarbeit. Der Bewertungsraster legt grossen Wert auf Projektmanagement, wodurch nur wenige Punkte von den Fachexperten vergeben werden konnten. Ich hoffe, den Aufwand bei zukünftigen Arbeiten reduzieren zu können, da dann bereits Dokumentvorlagen vorhanden sind und in Zukunft wieder mehr Zeit zu haben, um mich auf das Wesentliche zu konzentrieren, nämlich die Umsetzung.
 
 **Keep** Was soll beibehalten werden?
 
@@ -59,10 +59,10 @@ Dies wurde bewusst so gehandhabt, basierend auf den Schlussfolgerungen der letzt
 - Projektmanagement-Tool wurde effizient genutzt
 - Viele Mermaid-Diagramme wurden erstellt
 
-**Drop** Mit was sollen wir aufhören?
+**Drop** Mit was sollen ich aufhören?
 
 - Zeitaufwand bei der Dokumentenerstellung
 
-**Try** Was sollen wir im nächsten Sprint ausprobieren?
+**Try** Was soll ich im nächsten Sprint ausprobieren?
 
 - Einführung von Dokumentvorlagen zur Beschleunigung der Erstellung

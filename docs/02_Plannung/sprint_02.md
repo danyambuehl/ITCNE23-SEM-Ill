@@ -76,12 +76,12 @@ Es gab viel Ausprobieren und Fehlerbehebung in diesem Sprint. Ich musste Funktio
 - Probieren und Fehler machen
 - Funktionen in kleine Teile aufteilen
 
-**Drop** Mit was sollen wir aufhören?
+**Drop** Mit was soll ich aufhören?
 
 - Funktionen ständig umschreiben
 - Weitere Bibliotheken installieren
 
-**Try** Was sollen wir im nächsten Sprint ausprobieren?
+**Try** Was soll ich im nächsten Sprint ausprobieren?
 
 - Simplicity
 - Mehr testen

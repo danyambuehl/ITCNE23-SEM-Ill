@@ -63,11 +63,11 @@ block-beta
     style Einflussgroesse fill:#66c2a5,stroke:#333,stroke-width:4px
 ```
 
-### Einflussgrößen und Schnittstellen
+### Einflussgrössen und Schnittstellen
 
 Schnittstellen sind die Verbindungen zwischen den einzelnen Systemelementen und ermöglichen den Austausch von Informationen, Energie oder Materie. Sie sind ein wichtiger Bestandteil der Systemanalyse und dienen dazu, die Interaktionen zwischen den Systemelementen zu beschreiben. Die Definition von Schnittstellen hilft dabei, die Beziehungen und Abhängigkeiten im System zu verstehen und zu analysieren.
 
-| **Schnittstelle** | **Einflussgröße**    | **Beschreibung** |
+| **Schnittstelle** | **Einflussgrösse**    | **Beschreibung** |
 |-------------------|----------------------|------------------|
 | A                 | Entwickler           | Der Entwickler ist verantwortlich für die Programmierung und Implementierung der Systemkomponenten. Meine technischen Fähigkeiten und Effizienz beeinflussen direkt die Qualität des Projekts. |
 | B                 | Dozenten             | Die Dozenten überwachen den Fortschritt des Projekts, geben fachliches Feedback und bewerten die Arbeit. Ihr Input kann helfen, die Richtung des Projekts zu korrigieren und die Qualität zu verbessern. |

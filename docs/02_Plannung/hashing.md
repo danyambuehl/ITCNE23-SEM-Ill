@@ -4,7 +4,7 @@ Wenn der Hash des aktuell gescrapten HTML-Bereichs nicht mit dem in der Datenban
 
 Vorteile dieser Methode:
 
-Effizienz: Das Vergleichen von Hashes ist effizienter als das Vergleichen von großen Datenmengen.
+Effizienz: Das Vergleichen von Hashes ist effizienter als das Vergleichen von grossen Datenmengen.
 
 Schnelligkeit: Mithilfe von Hashes kann schnell erkannt werden, ob es Änderungen auf der Webseite gibt oder nicht.
 

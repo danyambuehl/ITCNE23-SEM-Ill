@@ -3,10 +3,6 @@ layout: default
 title: Stakeholderanalyse
 parent: Start
 nav_order: 6
-# Regelmässige Überprüfung der Einbindung.
-# Engere Zusammenarbeit mit den Experten.
-# Verbesserung der Feedbackmechanismen.
-# Kontinuierliche Evaluierung und Anpassung.
 ---
 
 ## Stakeholderanalyse
@@ -75,10 +71,10 @@ quadrantChart
 
 | Kriterium                      | Bewertung (Skala 1-5) | Massnahmen zur Verbesserung               |
 |--------------------------------|-----------------------|-------------------------------------------|
-| **Einfluss der Stakeholder**   | 4                     |     |
-| **Interessenabgleich**         | 4                     |     |
-| **Kommunikationsstrategie**    | 3                     |     |
-| **Projekterfolgspotential**    | 5                     |  |
+| **Einfluss der Stakeholder**   | 4                     | Regelmässige Überprüfung der Einbindung.   |
+| **Interessenabgleich**         | 4                     | Engere Zusammenarbeit mit den Experten.   |
+| **Kommunikationsstrategie**    | 3                     | Verbesserung der Feedbackmechanismen.   |
+| **Projekterfolgspotential**    | 5                     | Kontinuierliche Evaluierung und Anpassung. |
 
 ### Quellen
 

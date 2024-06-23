@@ -58,7 +58,7 @@ So konnte ich die Collection 'ApartmentStatusHistory' in der Collection 'Apartme
         "rooms": Number, // Anzahl der Zimmer
         "availableFrom": Date, // Verfügbar ab (falls vorhanden)
         "price": Number, // Preis der Wohnung (falls vorhanden)
-        "size": Number, // Größe der Wohnung in Quadratmetern (falls vorhanden)
+        "size": Number, // Grösse der Wohnung in Quadratmetern (falls vorhanden)
         "floor": Number, // Stockwerk (falls vorhanden)
         "otherDetails": String, // Andere Information über die Wohnung (falls vorhanden)
     },
@@ -111,11 +111,11 @@ Um die Datenbanken zu vergleichen, werde ich die folgenden Kriterien verwenden:
 
 ### Performance
 
-Die Performance kann sich je nach Einsatzszenario stark unterscheiden. MongoDB kann bei großen Datenmengen und einfachen Anfragen oft schneller sein. MySQL ist jedoch bei komplexen Anfragen oft performanter, da die relationale Datenstruktur eine effizientere Datenmanipulation ermöglicht.
+Die Performance kann sich je nach Einsatzszenario stark unterscheiden. MongoDB kann bei grossen Datenmengen und einfachen Anfragen oft schneller sein. MySQL ist jedoch bei komplexen Anfragen oft performanter, da die relationale Datenstruktur eine effizientere Datenmanipulation ermöglicht.
 
 ### Skalierbarkeit
 
-MongoDB wurde für horizontale Skalierbarkeit entwickelt und kann leicht auf mehrere Maschinen verteilt werden. MySQL hingegen ist eher für vertikale Skalierbarkeit optimiert und kann daher bei großen Datenmengen oder hoher Zugriffsrate an seine Grenzen stoßen.
+MongoDB wurde für horizontale Skalierbarkeit entwickelt und kann leicht auf mehrere Maschinen verteilt werden. MySQL hingegen ist eher für vertikale Skalierbarkeit optimiert und kann daher bei grossen Datenmengen oder hoher Zugriffsrate an seine Grenzen stossen.
 
 ### Datenschema
 
@@ -127,7 +127,7 @@ Obwohl MongoDB in neueren Versionen Transaktionen unterstützt, ist MySQL in der
 
 ### Community und Support
 
-MySQL hat eine lange Geschichte und eine große aktive Community, während MongoDB eine jüngere Technologie mit einer wachsenden Community ist. Beide haben professionellen Support von den jeweiligen Unternehmen.
+MySQL hat eine lange Geschichte und eine grosse aktive Community, während MongoDB eine jüngere Technologie mit einer wachsenden Community ist. Beide haben professionellen Support von den jeweiligen Unternehmen.
 
 ## Entscheidungsmatrix [^3]
 

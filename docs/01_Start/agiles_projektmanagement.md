@@ -45,7 +45,7 @@ Das Priority Board dient zur Priorisierung der Aufgaben und hilft, die wichtigst
 
 ### Task Status [^6]
 
-Das Kanban-Board wir in 5 Spalten aufgeteilt.
+Das Kanban-Board wird in 5 Spalten aufgeteilt.
 
 - Backlog
 - Ready
