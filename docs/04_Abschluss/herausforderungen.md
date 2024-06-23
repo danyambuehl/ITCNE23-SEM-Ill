@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wurden die Ziele erreicht?
-parent: Herausforderungen
+parent: Abschluss
 nav_order: 3
 ---
 

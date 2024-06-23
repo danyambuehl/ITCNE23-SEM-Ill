@@ -24,6 +24,8 @@ Hier werden einige Manuelle Tests durchgeführt um die Funktionen zu überprüfe
 
 ## Automatisches Testing
 
+![Testing](../img/testing2.png)
+
 Hier werden einige Automatische Tests durchgeführt um die Funktionen zu überprüfen.
 
 ### Pipline SAST Testing

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vorbehalte
-parent: Herausforderungen
+parent: Abschluss
 nav_order: 4
 ---
 

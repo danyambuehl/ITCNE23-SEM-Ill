@@ -18,10 +18,10 @@ Hier nochmal die Ziele, die ich mir gesetzt habe:
 
 ![Ziele](../img/ziele.jpg)
 
-## We habe ich die Ziele erreicht?
+## Wie habe ich die Ziele erreicht?
 
 Durch das Agile arbeiten und die Verwendung von SMART-Zielen war es möglich, die Ziele zu erreichen. Die Ziele waren klar definiert und konnten so Schritt für Schritt umgesetzt werden. Die Ziele wurden in kleinere Aufgaben unterteilt und in Sprints umgesetzt. So konnte ich den Fortschritt überwachen und bei Bedarf Anpassungen vornehmen.
 
-Die wurde alles in einem GitLab Projekt umgesetzt.
+Die wurde alles in einem GitHub Projekt umgesetzt.
 
 [GitHub Projekt](https://github.com/users/danyambuehl/projects/3){: .btn .btn-purple }

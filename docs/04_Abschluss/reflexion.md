@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reflexion
-parent: Herausforderungen
+parent: Abschluss
 nav_order: 5
 ---
 
