@@ -47,8 +47,7 @@ Dabei werden sowohl die Erfolge als auch die Herausforderungen des Projekts bele
 ### 3.1. Kommunikation
 
 - **Kommunikation Fach Experte:** Es gab regelmässige Meetings mit dem Fachexperten und konkrete Verbesserungsvorschläge
-- **Kommunikation Projekt Experte:** Es hat ein Zwiegespräch stattgefunden, jedoch mit keinen konkreten Verbesserungsvorschlägen
-- **Herausforderungen:** Keine Antworten erhalten auf Fragen. Jedoch wurde von der Leitung erläutert, dass nicht genügend Zeit für die Experten vorhanden war
+- **Kommunikation Projekt Experte:** Es hat ein Zwiegespräch stattgefunden und es wurden konkrete Verbesserungsvorschläge gemacht
 
 ## 4. Risiken und Herausforderungen
 
