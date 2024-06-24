@@ -41,3 +41,8 @@ Um jedoch eine konstante Antwort zu erhalten, musste ich sehr viel Zeit in die F
 
 Die Verwendung von lxml war eine Herausforderung, da für die Verwendung von 'lxml' System Packages benötigt werden, die nicht im requirements.txt installiert werden können.
 Dies hat mich sehr viel Zeit gekostet, jedoch habe ich mich hierfür tiefer in die Dockerfiles eingearbeitet und konnte so sehr viel lernen.
+
+### Herausforderung 6: Browser Header
+
+Some websites block the request if the browser header was not changed. Therefore, I had to change the browser header for each request to avoid being blocked.
+This was a challenge because every request answer would look different and I had to adjust the code for each website individually.

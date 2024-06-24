@@ -42,7 +42,7 @@ Dabei werden sowohl die Erfolge als auch die Herausforderungen des Projekts bele
 - **Erreichte Qualität:** Die daraus resultierende Qualität der Arbeit war insgesamt sehr gut
 - **Verbesserungspotenzial:** In folgenden Bereichen könnte die Qualität noch verbessert werden [Vorbehalte](../04_Abschluss/vorbehalte.md)
 
-## 3. Teamdynamik und Kommunikation
+## 3. Kommunikation
 
 ### 3.1. Kommunikation
 
@@ -85,6 +85,6 @@ Dabei werden sowohl die Erfolge als auch die Herausforderungen des Projekts bele
 
 ## 7. Fazit und Ausblick
 
-- **Zusammenfassung der wichtigsten Erkenntnisse:** Die Ruflektion des Projekts wurde [hier](reflektion.md) dokumentiert
+- **Zusammenfassung der wichtigsten Erkenntnisse:** Die Ruflektion des Projekts wurde [hier](reflexion.md) dokumentiert
 - **Empfehlungen für zukünftige Projekte:** Themenwahl und Motivation sind entscheidend für den Projekterfolg
 - **Ausblick:** Das Projekt wird nach der Abgabe weitergeführt und verbessert
