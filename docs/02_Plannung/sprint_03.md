@@ -48,15 +48,21 @@ Folgende Tasks wurden im Sprint 03 bearbeitet:
 
 ### Sprint Retrospektive
 
-Leider konnte ich die Dockerfiles nicht wie geplant fertigstellen. Da für die Verwendung von 'lxml' System Packages benötigt werden, die nicht im requirements.txt installiert werden können.
-Die schönste Lösung wäre es, bei Web Scrapping auf Bibliotheken zu verzichten, die System Packages benötigen. Leider ist dies nicht immer möglich, da die Bibliotheken, die ich verwende, auf System Packages angewiesen sind.
+#### Dockerfile
 
-Ich habe viel Zeit damit verbracht, ein Error Handling für die Funktionen zu implementieren. Das Error Handling ist jetzt robuster und die Funktionen können mehr Edge Cases behandeln. Ein Teil davon war nach dem Feedback aus dem letzten Sprint Review, jetzt verwende ich auch Timeouts für die Anfragen.
+Leider konnte ich die Dockerfiles nicht wie geplant fertigstellen. Da für die Verwendung von `lxml` System Packages benötigt werden, die nicht im requirements.txt installiert werden können.
+Die schönste Lösung wäre es, bei Web Scrapping auf Bibliotheken zu verzichten, die System Packages benötigen.
+
+#### Error Handling
+
+Ich habe viel Zeit damit verbracht, ein Error Handling für die Funktionen zu implementieren. Das Error Handling ist jetzt robuster und die Funktionen können mehr Edge Cases behandeln. Speziell die Verwendung von Timeouts nach `Requests` hat das Error Handling verbessert.
+
+#### Umfrageergebnisse
 
 Umfrageergebnisse sind eingetroffen und werden in die Weiterentwicklung der Plattform einbezogen. Die Umfrageergebnisse zeigen, dass die Nutzer eine Filterfunktion wünschen.
 Sowie der Fokus auf Funktionalität und Datenschutz gelegt werden soll.
-Es war eine Herausforderung, die sinnvoll zu gestalten und auszuwerten, was mich sehr viel Zeit gekostet hat.
-Leider konnte ich die Umfrageergebnisse nicht in die ersten drei Sprints integriert werden, da dies ausserhalb des Scopes liegt. Sie können jedoch in der Weiterentwicklung der Plattform berücksichtigt werden.
+Es war eine Herausforderung, die sinnvoll zu gestalten und auszuwerten.
+Leider konnte ich die Umfrageergebnisse nicht in diesen dritten Sprints integriert, da dies ausserhalb des Scopes liegt. Sie wird jedoch in den nächsten Sprint eingeplant und sicher für die Weiterentwicklung der Plattform berücksichtigt.
 
 **Keep** Was soll beibehalten werden?
 

@@ -12,7 +12,7 @@ Dass hatte sicher zu meiner Motivation beigetragen und konnte so mein Wissen im 
 
 Das ich weitere Dienste wie ChatGPT, BeautifulSoup und Pushover in mein Projekt integriert habe, konnte ich auch in diesen Bereichen mein Wissen erweitern.
 
-Ich hoffe, dass ich in der nächsten Semesterarbeit weniger Zeit und Energie in das Projektmanagement investieren muss. Der Grund dafür ist, dass ich dieses Mal erstmalig eine NABC-Analyse, Stakeholder-Analyse, Erhebungstechniken, Risikoanalyse und Nachanalyse durchgeführt und viel Zeit in die Dokumentation gesteckt habe.
+Ich hoffe, dass ich in der nächsten Semesterarbeit weniger Zeit und Energie in das Projektmanagement investieren muss. Der Grund dafür ist, dass ich dieses Mal erstmalig eine NABC-Analyse, Stakeholder-Analyse, SWOT Analyse, Erhebungstechniken, Risikoanalyse und Nachanalyse durchgeführt und viel Zeit in die Dokumentation gesteckt habe.
 
 Die Arbeiten mit oft wechselnden dynamischen Datenquellen war eine sehr grosse Herausforderung und würde ich beim nächsten mal versuchen zu vermeiden.
 Da jede Webseite anders aufgebaut ist und die gesuchten Wohnung Informationen nur sehr selten ersichtlich sind.

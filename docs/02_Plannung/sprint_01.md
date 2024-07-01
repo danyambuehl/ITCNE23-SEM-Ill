@@ -48,9 +48,13 @@ Folgende Tasks wurden im Sprint 01 bearbeitet:
 
 ### Sprint Retrospektive
 
-Während dieses Sprints wurde ein erheblicher Aufwand betrieben, um alle projektspezifischen Dokumente im Bereich Projektmanagement zu erstellen. Dieser Aufwand hat sich als sehr zeitaufwändig herausgestellt da viele Dokumente von Grund auf neu erstellt werden mussten.
+#### Projektmanagement
 
-Dies wurde bewusst so gehandhabt, basierend auf den Schlussfolgerungen der letzten Semesterarbeit. Der Bewertungsraster legt grossen Wert auf Projektmanagement, wodurch nur wenige Punkte von den Fachexperten vergeben werden konnten. Ich hoffe, den Aufwand bei zukünftigen Arbeiten reduzieren zu können, da dann bereits Dokumentvorlagen vorhanden sind und in Zukunft wieder mehr Zeit zu haben, um mich auf das Wesentliche zu konzentrieren, nämlich die Umsetzung.
+Während dieses Sprints wurde ein erheblicher Aufwand betrieben, um alle projektspezifischen Dokumente im Bereich Projektmanagement zu erstellen dazu gehören NABC-Analyse, Stakeholder-Analyse, SWOT Analyse, Erhebungstechniken und Risikoanalyse. Dieser Aufwand hat sich als sehr zeitaufwändig herausgestellt da viele Dokumente von Grund auf neu erstellt werden mussten.
+
+#### Fazit
+
+Dies wurde bewusst so gehandhabt, basierend auf den Schlussfolgerungen der letzten Semesterarbeit. Der Bewertungsraster legt grossen Wert auf Projektmanagement, wodurch nur wenige Punkte von den Fachexperten vergeben werden konnten. Ich hoffe, den Aufwand bei zukünftigen Arbeiten reduzieren zu können, da dann bereits Dokumentvorlagen vorhanden sind und wieder mehr Zeit zu haben, um mich auf das Wesentliche zu konzentrieren, nämlich die Umsetzung.
 
 **Keep** Was soll beibehalten werden?
 
