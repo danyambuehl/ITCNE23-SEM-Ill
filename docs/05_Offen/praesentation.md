@@ -1,3 +1,24 @@
+# Präsentation
+
+Witz zum starten -> Video
+Übersicht der OPENAI funktion self learning
+
+
+Call to Action -> abschluss -> Hier der Link zum registrieren
+
+## Was schauen
+
+Augenhöhe mit kamera (nicht von unten )
+Schriftgrösse 25
+Viel Bilder
+1 Slide max 2 min
+
+# Abschluss
+
+Offiziele Abgabe schrieben
+
+
+
 Kriterium 6 - Kolloquium (Produkte Vorführung)
 Das Kolloquium ist die Verteidigung deiner Semesterarbeit. Dabei präsentierst du einem Prüfungskomitee deine Semesterarbeit und die erstellten Produkte und Services. Ausserdem gehört zum Kolloquium
 auch die Beantwortung von Fragen und eine anschliessende Diskussion.

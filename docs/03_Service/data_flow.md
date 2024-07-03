@@ -13,6 +13,24 @@ Der von mir implementierte Lösungsansatz basiert auf künstlicher Intelligenz (
 
 Auf diese Weise werden Kosten für KI-Anfragen vermieden, da die KI bereits identifiziert hat, wie man ein neues Apartment eigenständig identifizieren kann.
 
+## Selbstlernende Funktion
+
+```mermaid
+zenuml
+      API-> OpenAI: send changed content
+      OpenAI -> OpenAI: check for apartment
+      OpenAI -> OpenAI: check for HTML class
+      OpenAI -> Database: save HTML class
+      OpenAI -> Send_Message: send message
+    
+    opt {
+      API-> Dynamic_Rule: Website hash changed
+      Dynamic_Rule -> Database: get HTML class
+      Dynamic_Rule -> Send_Message: send message
+    }
+
+```
+
 ## Squenz Diagramm
 
 Dieses Sequenz Diagramm zeigt den Ablauf der Überwachungsfunktion.
