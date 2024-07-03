@@ -23,7 +23,7 @@ zenuml
       OpenAI -> Database: save HTML class
       OpenAI -> Send_Message: send message
     
-    par {
+    opt {
       API-> Dynamic_Rule: Website hash changed
       Dynamic_Rule -> Database: get HTML class
       Dynamic_Rule -> Send_Message: send message
