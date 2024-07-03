@@ -56,6 +56,11 @@ flowchart TB
             Git
             Docker["Docker"]
         end
+        %% Define Entwickler Block
+        subgraph NOIP["NoIP"]
+            semsearch-bau.ddns.net
+        end
+        
         %% Define AWS Infrastructure Block
         subgraph Infrastructure["AWS Infrastructure (EC2)"]
             direction TB
@@ -71,6 +76,7 @@ flowchart TB
             subgraph sem-search-prod-db
             Datenbank["Datenbank"]
             end
+            noipagent["NoIP Agent"]
 
         end
         end
@@ -90,7 +96,7 @@ flowchart TB
         %% Define OpenAI Block
         subgraph OpenAi
             direction TB
-            ChatGptAPI
+            ChatGPTAPI
         end
         %% Define Genossenschaften Block
         subgraph Genossenschaften
@@ -113,9 +119,13 @@ flowchart TB
     RESTAPI <-->|queries| OpenAi
     Git <--> |push/pull| GitRepository
     RESTAPI <--> |Web Scraping| Genossenschaften
+    GitVariables --> |contains| NOIP
+    NOIP --> |Dynamic DNS| noipagent
+    FlaskFrontend <--> |calls| EndUser
 
     %% Define Styles
     style Entwicklerumgebung fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
+    style NOIP fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style Microservices fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style GitLab_Infrastructure fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style Infrastructure fill:#FFA07A,stroke:#FF8C00,stroke-width:4px

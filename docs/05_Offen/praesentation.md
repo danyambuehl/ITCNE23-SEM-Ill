@@ -1,3 +1,10 @@
+---
+layout: default
+title: Präsentation
+parent: Offen
+nav_order: 1
+---
+
 # Präsentation
 
 Witz zum starten -> Video
