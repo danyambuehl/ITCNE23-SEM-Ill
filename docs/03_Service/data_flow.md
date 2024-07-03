@@ -31,7 +31,7 @@ zenuml
 
 ```
 
-## Squenz Diagramm
+<!-- ## Squenz Diagramm
 
 Dieses Sequenz Diagramm zeigt den Ablauf der Überwachungsfunktion.
 
@@ -65,7 +65,7 @@ sequenceDiagram
     PCH -) UC: ChatGPT HTML class found
     SE -) UC: Update company record
 
-```
+``` -->
 
 ## Flowchart Ablauf
 

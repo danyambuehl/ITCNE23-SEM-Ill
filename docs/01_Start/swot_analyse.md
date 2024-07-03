@@ -51,7 +51,7 @@ nav_order: 8
 
 1. **Rechtliche und sicherheitsbezogene Risiken:**
    - Strenge Datenschutz- und Sicherheitsanforderungen müssen eingehalten werden.
-   - Mögliche rechtliche Herausforderungen beim Scrabbing von Webseiten.
+   - Mögliche rechtliche Herausforderungen beim web scraping von Webseiten.
 
 2. **Konkurrenz:**
    - Bestehende Plattformen und Dienstleistungen könnten ähnliche Funktionen anbieten.

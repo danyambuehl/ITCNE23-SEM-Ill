@@ -22,7 +22,7 @@ Es wurde das hier verlinkte Risikomanagement-Tool verwendet, um die Risiken zu i
 | 3 | Umfangserweiterung | Das Projekt kann Verzögerungen erleiden, wenn der Umfang unerwartet erweitert wird oder technische Herausforderungen auftreten. | 90 % | 4 |
 | 4 | Benachrichtigungen über neue Angebote | Benachrichtigungen über neue Angebote können versehentlich ausgelöst werden und Benutzer verärgern | 50 % | 3 |
 | 5 | Verfügbare Daten | Es stehen nicht genügend Daten zur Verfügung, um die Funktionalität des Projekts zu gewährleisten. | 30 % | 4 |
-| 6 | Datenschutzverletzung | Es besteht das Risiko, dass das Scrabbing von Daten auf den Genossenschaftswohnungen unerlaubt ist oder verhindert wird | 50% | 4 |
+| 6 | Datenschutzverletzung | Es besteht das Risiko, dass das web scraping von Daten auf den Genossenschaftswohnungen unerlaubt ist oder verhindert wird | 50% | 4 |
 | 7 | Benutzerfreundlichkeit | Die Benutzerfreundlichkeit der Plattform entspricht nicht den Erwartungen der Benutzer. | 50 % | 4 |
 | 8 | Performance-Probleme | Die Plattform ist langsam oder instabil, was zu einer schlechten Benutzererfahrung führt. | 30 % | 3 |
 | 9 | Missverständnisse bei der Anforderungsdefinition | Missverständnisse bei der Anforderungsdefinition können zu Fehlern führen. | 90 % | 3 |

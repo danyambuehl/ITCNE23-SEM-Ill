@@ -92,6 +92,10 @@ flowchart TB
             direction TB
             ChatGptAPI
         end
+        %% Define Genossenschaften Block
+        subgraph Genossenschaften
+            Website 
+        end
 
     EndUser["Mobile Phone"]
 
@@ -108,6 +112,7 @@ flowchart TB
     Pushover -->|sends Notification| EndUser
     RESTAPI <-->|queries| OpenAi
     Git <--> |push/pull| GitRepository
+    RESTAPI <--> |Web Scraping| Genossenschaften
 
     %% Define Styles
     style Entwicklerumgebung fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
@@ -116,6 +121,7 @@ flowchart TB
     style Infrastructure fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style Pushover fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
     style OpenAi fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
+    style Genossenschaften fill:#FFA07A,stroke:#FF8C00,stroke-width:4px
 ```
 
 ## Begründung
