@@ -1,11 +1,11 @@
 ---
 layout: default
-title: SUSAG
+title: SEUSAG
 parent: Planung
 nav_order: 4
 ---
 
-## SUSAG [^1]
+## SEUSAG [^1]
 
 ### Systemgrenze definieren
 

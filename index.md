@@ -7,7 +7,7 @@ banner: /img/banner_2.png
 ---
 ![Custom Banner](/docs/img/wohnungsnot.jpeg)
 
-## Der Traum vom Wohnen in einer Züricher Baugenossenschaft
+## Der Traum vom Wohnen in einer Zürcher Baugenossenschaft
 
 In meiner Semesterarbeit widme ich mich dem aktuellen Problem, erschwinglichen Wohnraum in Zürich zu finden.
 Mein Ansatz hierzu erfolgt aus der Perspektive eines Informatikers, indem ich moderne Technologien nutze, um den Zugang zu freien Genossenschaftswohnungen effizienter zu gestalten.
@@ -18,7 +18,7 @@ Und wer weiss, mit ein bisschen Glück und viel Code könnte meine Arbeit dazu b
 
 | Projektname | ITCNE23-SEM-III |
 |---|---|
-| Titel der Semesterarbeit | Der Traum vom Wohnen in einer Züricher Baugenossenschaft  |
+| Titel der Semesterarbeit | Der Traum vom Wohnen in einer Zürcher Baugenossenschaft  |
 | Projekt Experte | Rohr Philipp |
 | IaC Experte | Langer Boris |
 | Student | Dany Ambühl  |
